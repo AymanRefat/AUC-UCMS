@@ -11,10 +11,14 @@ CONFIG += c++17
 SOURCES += \
     activity.cpp \
     activityrepository.cpp \
+    admin_page.cpp \
+    adminloginpage.cpp \
     course.cpp \
     courserepository.cpp \
+    dashboard.cpp \
     eventrepository.cpp \
     main.cpp \
+    register.cpp \
     user.cpp \
     student.cpp \
     admin.cpp \
@@ -26,9 +30,13 @@ SOURCES += \
 HEADERS += mainwindow.h \
     activity.h \
     activityrepository.h \
+    admin_page.h \
+    adminloginpage.h \
     course.h \
     courserepository.h \
+    dashboard.h \
     eventrepository.h \
+    register.h \
     user.h \
     student.h \
     admin.h \
@@ -36,7 +44,11 @@ HEADERS += mainwindow.h \
     email.h \
     utils.h \
 
-FORMS += mainwindow.ui
+FORMS += mainwindow.ui \
+    admin_page.ui \
+    adminloginpage.ui \
+    dashboard.ui \
+    register.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
