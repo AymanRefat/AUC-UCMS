@@ -2,11 +2,8 @@
 #include "email.h"
 #include <QUuid>
 
-User::User(QString username, QString password, QString first_name, QString last_name, QString email , QString phone_number,
-               QString address ){
-    if ( Email::is_valid_email(email)){
-        throw std::invalid_argument("Invalid email");
-    }
+User::User(QUuid id, QString username, QString password, QString first_name, QString last_name, QString email , QString phone_number,
+           QString address ){
     set_email(email);
     set_username(username);
     set_password(password);
@@ -14,12 +11,13 @@ User::User(QString username, QString password, QString first_name, QString last_
     set_address(address);
     set_first_name(first_name);
     set_last_name(last_name);
-
-    // Generate unique ID
-    this->ID = QUuid::createUuid().toString();
+    this->id = QUuid(id);
 
 }
 
+User::~User() {
+    // Haha, Now you can't make an instance of me.
+}
 
 
 // Setters
@@ -59,6 +57,14 @@ void User::set_last_name(QString last_name) {
 
 
 // Getters
+QString User::get_firstname() {
+    return first_name;
+}
+
+QString User::get_lastname() {
+    return last_name;
+}
+
 QString User::get_username() const{
     return username;
 }
@@ -80,6 +86,10 @@ QString User::get_phone_number() const  {
 }
 QString User::get_address()const  {
     return address;
+}
+
+QUuid User::get_id() const {
+    return id;
 }
 
 

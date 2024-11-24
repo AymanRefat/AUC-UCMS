@@ -15,6 +15,9 @@ set(SOURCES
         admin.cpp
         mainwindow.cpp
         user.cpp
+        app.cpp
+        courserepository.cpp
+        activityrepository.cpp
 )
 
 set(HEADERS
@@ -23,10 +26,13 @@ set(HEADERS
         event.h
         student.h
         admin.h
+        app.h
 )
 
 set(UI_FILES
         mainwindow.ui
+        course.cpp
+        authenticationrepository.cpp
 )
 
 # Add executable

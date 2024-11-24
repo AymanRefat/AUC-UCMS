@@ -6,17 +6,17 @@
 #include "utils.h"
 
 class Admin : public User {
-    AdminType type;
+    AdminRole role;
     double salary;
 public:
-    Admin(QString username, QString password, QString name, QString email, AdminType type, QString adress, QString phone, QString first_name, QString last_name, double salary );
+    Admin(QUuid id, QString username, QString password, QString first_name, QString last_name, QString email, QString address, QString phone, AdminRole role,  double salary);
 
     // Getters
-    AdminType get_type() const ;
+    AdminRole get_role() const ;
     double get_salary() const ;
 
     // Setters
-    void set_type (AdminType type);
+    void set_role(AdminRole type);
     void set_salary(double salary);
 
 };

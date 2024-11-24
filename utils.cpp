@@ -25,8 +25,13 @@ QStringList parseCsvLine(const QString &line) {
 
 QString getCurrentDir() {
     QDir current_dir = QDir(QCoreApplication::applicationDirPath());
+
     current_dir.cdUp();
     current_dir.cdUp();
     current_dir.cdUp();
+#ifdef Q_OS_APPLE
+    current_dir.cdUp();
+    current_dir.cdUp();
+#endif
     return current_dir.absolutePath();
 }

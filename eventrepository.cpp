@@ -1,7 +1,7 @@
 #include "eventrepository.h"
 #include "event.h"
 
-EventRepository::EventRepository() : ActivityRepository(ActivityType::Event, "events.csv") {
+EventRepository::EventRepository() : ActivityRepository(ActivityType::EventType, "events.csv") {
     // Testing CourseRepository
     load();
     QList<Activity*> activities = get_all();

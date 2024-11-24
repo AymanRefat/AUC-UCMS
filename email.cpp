@@ -15,11 +15,12 @@ QString Email::get_email() const {
     return email ;
 }
 void Email::set_email(QString newEmail){
-    if ( !is_valid_email(newEmail)){
-        throw std::invalid_argument("Invalid email");
-    }
+    // if ( !is_valid_email(newEmail)){
+        // throw std::invalid_argument("Invalid email");
+    // }
     email = newEmail;
 }
+
 
 bool Email::operator==(Email emailToCompare){
     return email == emailToCompare.get_email();

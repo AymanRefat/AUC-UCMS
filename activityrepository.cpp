@@ -65,7 +65,7 @@ void ActivityRepository::load() {
         QDate end_date = QDate(end_date_list[0].toInt(), end_date_list[1].toInt(), end_date_list[2].toInt());
 
         // Constructing the activity object
-        if (type == ActivityType::Course) {
+        if (type == ActivityType::CourseType) {
 
             // Constructing days
             QStringList days_list = row[CourseDataRow::Days].split(" ");
@@ -113,14 +113,14 @@ void ActivityRepository::store() {
 
 
     // Write the title (Just for now. The title should be deleted in the end)
-    if (type == ActivityType::Course)
+    if (type == ActivityType::CourseType)
         out << "id,title,description,capacity,location,start_date,end_date,days,start_time,end_time,instructor_id\n";
     else
         out << "id,title,description,capacity,location,date_time\n";
 
     // Write the data
     for (auto &activity : container) {
-        if (type == ActivityType::Course) {
+        if (type == ActivityType::CourseType) {
 
             // Dynamic Casting to a Course object
             class Course *course = dynamic_cast<class Course*>(activity);

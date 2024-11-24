@@ -82,3 +82,46 @@ id,title,description,capacity,location,date_time
 {a4c98211-34c4-44c3-b63e-6d00ae054f32},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 48,03 48,{1bddaf74-9eac-44ab-b19d-a6a7252127cc}
 {b69ce123-f038-4a90-81bd-59d34bfdf72a},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 27,03 27,{97aa5fb6-cdbc-4f72-bcf8-00310d46c0d5}
 {beecd38b-0a77-47b4-8316-0caf1695a6b3},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,02 08,02 08,{5cf599f8-85f6-42c7-bed4-d84a4511dee3}
+=======
+{bbca404c-4d93-43a9-af49-c102d62ac7b2},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,14 46,14 46,{4230631f-6db7-4b60-bb38-dad1dcd5794f}
+{e1ba9d35-98a2-4481-a80e-8dc5701b96b7},"This is my title updated","A discussion on sustainable practices and climate change mitigation.",100,"Main Auditorium",2024 06 01,2024 06 01,11 00,16 00,{9bea0f65-f87c-4004-be48-563a24090215}
+{2cce7a5e-d218-494f-9a5f-85669a4961c5},"This is my title updated","A workshop for aspiring writers to hone their storytelling skills.",25,"Room D4",2024 06 05,2024 06 05,10 00,13 00,{3506f529-07cd-4c09-8a4d-8d3d6c3745b1}
+{8f338041-c5f9-4e95-b476-87db2667591b},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,14 47,14 47,{c804a5f1-6691-432b-b5fd-18103751e6b2}
+{5e057939-f493-4ae6-8845-5feb1adc9601},"New Title","A program focused on startup development and business strategies.",30,"Startup Lab",2024 06 10,2024 06 12,09 00,17 00,{1b1152bb-71c9-4078-81e7-4d4322c5fd01}
+{9640133a-4453-4e67-99e6-257e7ebc9c50},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,00 59,00 59,{391135f8-247b-411c-a4a6-0a6c36fced09}
+{402ca292-c8c2-4466-861a-af14f330d283},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,14 45,14 45,{66c881e1-8f52-47bc-8fee-45258ae97abe}
+{f170e307-7fb4-4321-9000-7e261841b047},"This is my title updated","A hands-on workshop on digital marketing strategies and tools.",50,"Room B1",2024 05 20,2024 05 20,10 00,14 00,{d5276092-7fbe-4c9c-9d1e-9e3016262207}
+{fdc6a218-d271-4b49-84c7-f2052152ae3d},"This is my title updated","Learn advanced photography techniques from a professional.",20,"Photography Studio",2024 05 30,2024 05 30,12 00,15 00,{36cf50e9-83a3-486f-9bcb-e4935b5eb047}
+{ac795926-c6ab-42d7-842b-3502fc9ad9db},"Event 1","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 07,21 07,{fc666473-5fa7-438a-b2c4-757b5e9e7615}
+{3a5e6ea7-870e-4d75-bde5-7184c3b94678},"Event 1","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 12,21 12,{1929ab5a-9bb5-4108-94f4-80bcc11556c3}
+{0503cbba-08b7-4eac-973d-7b1954db7639},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,14 44,14 44,{0c61475d-8193-45f0-9eba-6a139b1a39dd}
+{5517ff60-1fac-4e02-ba5c-0abbf34ef457},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,14 47,14 47,{a8bf9e21-6535-4fa3-93cf-4ef8e017cda1}
+{8bb42c4d-4662-4054-a685-72f64be89de3},"This is my title updated","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 12,21 12,{ab182880-e6a0-402c-824a-012d127c2869}
+{09d13679-5eb6-4778-94ec-e77a4fd0298b},"Event 1","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 07,21 07,{218b237d-70f9-47f9-a1c5-72a28587b76b}
+{156fb3c2-b8ab-4043-bcd3-6436aa406960},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,14 48,14 48,{6f8acfca-ba0c-4728-b9fe-a60e62ba4425}
+{47a40650-d7f8-4241-8528-d1c89bda0cd5},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,13 07,13 07,{978f102c-1999-463b-8a78-101b8941fd45}
+{92acb5df-1f7c-49a6-a150-8f96d20abdbe},"New Title","An expo showcasing health products and wellness strategies.",150,"Exhibition Hall B",2024 06 20,2024 06 21,09 00,18 00,{17a6688b-5909-48c1-8321-e6711f919dbd}
+{e8e63529-1e77-416e-a6da-ac04f347a2d7},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,14 45,14 45,{dff437ab-70e7-4225-9e51-a89ec9d8cd92}
+{2c2bf27b-2214-4734-a02c-f15c258db2b2},"This is my title updated","An introductory seminar on blockchain technology and applications.",75,"Room C3",2024 05 25,2024 05 25,13 30,15 30,{a25c870e-8a39-4666-b7bd-c3faae1d74b8}
+{a14a80e5-424d-4757-a4f9-93e2805b93cc},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,14 46,14 46,{d346daae-c836-4a7d-a059-41dee2847374}
+{20bfc288-d653-482b-94dc-61856f8fecc3},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,14 48,14 48,{4b3d29a3-62b5-4bdb-9bf5-5eec80e7caaf}
+{0d51bd46-9aab-45cd-b2f1-1bdf22b849a2},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,13 38,13 38,{9bd674e0-81ca-4c11-8365-df59a40698ad}
+{5e057939-f493-4ae6-8845-5feb1adc9601},"New Title","A program focused on startup development and business strategies.",30,"Startup Lab",2024 06 10,2024 06 12,09 00,17 00,{1b1152bb-71c9-4078-81e7-4d4322c5fd01}
+{3a5e6ea7-870e-4d75-bde5-7184c3b94678},"This is my title updated","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 12,21 12,{1929ab5a-9bb5-4108-94f4-80bcc11556c3}
+{ac795926-c6ab-42d7-842b-3502fc9ad9db},"Event 1","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 07,21 07,{fc666473-5fa7-438a-b2c4-757b5e9e7615}
+{f170e307-7fb4-4321-9000-7e261841b047},"AUC ICPC Community Trivia Night","A hands-on workshop on digital marketing strategies and tools.",50,"Room B1",2024 05 20,2024 05 20,10 00,14 00,{d5276092-7fbe-4c9c-9d1e-9e3016262207}
+{fdc6a218-d271-4b49-84c7-f2052152ae3d},"This is my title updated","Learn advanced photography techniques from a professional.",20,"Photography Studio",2024 05 30,2024 05 30,12 00,15 00,{36cf50e9-83a3-486f-9bcb-e4935b5eb047}
+{e1ba9d35-98a2-4481-a80e-8dc5701b96b7},"AUC ICPC Community Trivia Night","A discussion on sustainable practices and climate change mitigation.",100,"Main Auditorium",2024 06 01,2024 06 01,11 00,16 00,{9bea0f65-f87c-4004-be48-563a24090215}
+{2cce7a5e-d218-494f-9a5f-85669a4961c5},"This is my title updated","A workshop for aspiring writers to hone their storytelling skills.",25,"Room D4",2024 06 05,2024 06 05,10 00,13 00,{3506f529-07cd-4c09-8a4d-8d3d6c3745b1}
+{683aa50f-67c9-45e6-bd58-897763aec557},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,01 47,01 47,{36bf49f6-dabf-41fb-a9f8-8ae497c065e0}
+{fdc6a218-d271-4b49-84c7-f2052152ae3d},"This is my title updated","Learn advanced photography techniques from a professional.",20,"Photography Studio",2024 05 30,2024 05 30,12 00,15 00,{36cf50e9-83a3-486f-9bcb-e4935b5eb047}
+{f170e307-7fb4-4321-9000-7e261841b047},"AUC ICPC Community Trivia Night","A hands-on workshop on digital marketing strategies and tools.",50,"Room B1",2024 05 20,2024 05 20,10 00,14 00,{d5276092-7fbe-4c9c-9d1e-9e3016262207}
+{3a5e6ea7-870e-4d75-bde5-7184c3b94678},"This is my title updated","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 12,21 12,{1929ab5a-9bb5-4108-94f4-80bcc11556c3}
+{ac795926-c6ab-42d7-842b-3502fc9ad9db},"Event 1","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 07,21 07,{fc666473-5fa7-438a-b2c4-757b5e9e7615}
+{5e057939-f493-4ae6-8845-5feb1adc9601},"New Title","A program focused on startup development and business strategies.",30,"Startup Lab",2024 06 10,2024 06 12,09 00,17 00,{1b1152bb-71c9-4078-81e7-4d4322c5fd01}
+{8bb42c4d-4662-4054-a685-72f64be89de3},"Event 1","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 12,21 12,{ab182880-e6a0-402c-824a-012d127c2869}
+{09d13679-5eb6-4778-94ec-e77a4fd0298b},"Event 1","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 07,21 07,{218b237d-70f9-47f9-a1c5-72a28587b76b}
+{acf16312-19ba-403e-be1e-c62fbf82a899},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,00 42,00 42,{c078e561-33fc-4c24-9237-dfc13cf7e1c6}
+{92acb5df-1f7c-49a6-a150-8f96d20abdbe},"New Title","An expo showcasing health products and wellness strategies.",150,"Exhibition Hall B",2024 06 20,2024 06 21,09 00,18 00,{17a6688b-5909-48c1-8321-e6711f919dbd}
+{8d39d0f6-d0e7-4e7f-9d8a-05511ae4cd4f},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,00 42,00 42,{ca4d3905-121e-4420-87fe-34679cc3cf16}
+{2c2bf27b-2214-4734-a02c-f15c258db2b2},"This is my title updated","An introductory seminar on blockchain technology and applications.",75,"Room C3",2024 05 25,2024 05 25,13 30,15 30,{a25c870e-8a39-4666-b7bd-c3faae1d74b8}

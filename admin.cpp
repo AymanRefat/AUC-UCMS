@@ -1,15 +1,16 @@
 #include "admin.h"
+#include "quuid.h"
 #include "user.h"
 
-Admin::Admin(QString username, QString password, QString name, QString email, AdminType type, QString adress,
-             QString phone, QString first_name, QString last_name, double salary ) : User(username, password,  first_name , last_name , email, phone, adress) {
+Admin::Admin(QUuid id, QString username, QString password, QString first_name, QString last_name, QString email, QString address,
+             QString phone, AdminRole role, double salary ) : User(id, username, password,  first_name , last_name , email, phone, address) {
     set_salary(salary);
-    set_type(type);
+    set_role(role);
 }
 
 // Setters
-void Admin::set_type(AdminType type) {
-    this->type = type;
+void Admin::set_role(AdminRole role) {
+    this->role = role;
 }
 // Todo : Ensure salary is not negative
 void Admin::set_salary(double salary) {
@@ -18,8 +19,8 @@ void Admin::set_salary(double salary) {
 
 
 // Getters
-AdminType Admin::get_type() const {
-    return type;
+AdminRole Admin::get_role() const {
+    return role;
 }
 double Admin::get_salary()  const {
     return salary;

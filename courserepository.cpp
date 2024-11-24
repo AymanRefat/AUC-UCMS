@@ -1,7 +1,7 @@
 #include "courserepository.h"
 #include "course.h"
 
-CourseRepository::CourseRepository() : ActivityRepository(ActivityType::Course, "courses.csv") {
+CourseRepository::CourseRepository() : ActivityRepository(ActivityType::CourseType, "courses.csv") {
     qDebug() << "Course Repository Created";
 
     // Testing CourseRepository

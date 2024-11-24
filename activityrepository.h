@@ -9,7 +9,6 @@
 class ActivityRepository
 {
 protected:
-
     // Type of activity (Course/Event)
     ActivityType type;
 

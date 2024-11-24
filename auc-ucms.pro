@@ -56,8 +56,19 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 DISTFILES += \
+    admins-info.csv \
     courses-prerequisites.csv \
     courses.csv \
-    events.csv
+    events.csv \
+    instructors.csv \
+    students-courses.csv \
+    students-events.csv \
+    students-info.csv \
+    users-auth.csv
 
 RESOURCES +=
+QT       += core gui
+
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+
+CONFIG += c++17

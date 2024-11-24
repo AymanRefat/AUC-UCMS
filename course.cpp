@@ -3,7 +3,7 @@
 Course::Course(QString title, QString description, QString location,
                int capcity, QUuid id, QUuid instructor_id,
                QDate start_date, QDate end_date, QTime start_time, QTime end_time, QSet<Day> days)
-: Activity(title, description, location, capcity, id, start_date, end_date, start_time, end_time, ActivityType::Course) {
+: Activity(title, description, location, capcity, id, start_date, end_date, start_time, end_time, ActivityType::CourseType) {
     set_instructor_id(instructor_id);
     set_days(days);
 }
