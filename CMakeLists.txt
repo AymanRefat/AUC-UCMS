@@ -36,7 +36,12 @@ set(UI_FILES
 )
 
 # Add executable
-add_executable(UCMS ${SOURCES} ${HEADERS} ${UI_FILES})
+add_executable(UCMS ${SOURCES} ${HEADERS} ${UI_FILES}
+    activity.h course.h courserepository.h enrollmentrepository.h eventrepository.h instructor.h user.h utils.h
+    AdminCourseView.h AdminCourseView.cpp AdminCourseView.ui
+    StudentCourseView.h StudentCourseView.cpp StudentCourseView.ui
+    AdminEventView.h AdminEventView.cpp AdminEventView.ui
+    StudentEventView.h StudentEventView.cpp StudentEventView.ui)
 
 
 include_directories(.)
