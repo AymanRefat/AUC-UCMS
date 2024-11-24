@@ -1,4 +1,89 @@
+<<<<<<< HEAD
 id,title,description,capacity,location,date_time
+{e7a7014e-40d1-41f0-a2b9-7cd0dd2599ad},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 25,03 25,{b3e4501d-8f2f-4e82-a39a-af2a40355f18}
+{f0208ca4-1fde-4b2f-86ae-86bbfc0cebdc},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 21,04 21,{904467fd-3747-408e-b757-2191a20f3b17}
+{7e4caf38-b9d2-4094-9355-56ef8bc27c1b},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 39,03 39,{58afa391-d227-4a81-aeb8-cdd37eeb12d2}
+{a28d3803-c3c9-47ff-b85d-06b983aba592},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 19,04 19,{fc00a8d8-0829-4ed2-9d6e-6e4a18994645}
+{ffe7f582-e958-4213-8527-7c29c0adfee7},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 51,03 51,{aa71f42e-f18a-4fde-aa59-9fc3a50790ee}
+{8b4cd361-20aa-4093-8f84-180aec4c26d5},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 53,03 53,{bcb574c9-4de3-4245-b8b4-e6967afa8a70}
+{85eab54e-746f-4f2e-a8f0-760431ad9534},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 48,03 48,{d887236b-c971-4937-8b32-6412ca2df116}
+{a02da0ad-f866-4430-90ca-b8999c76405d},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 58,03 58,{00b7c1b0-7c9b-414b-8ebe-0ac42cd04aa0}
+{670c4a26-dadd-45f1-b023-1d8a8f13867e},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,05 00,05 00,{a1472a1a-8001-48a6-8d81-9b2347fde3a6}
+{42edc94a-9949-4a4d-8f27-9154c1891752},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,05 01,05 01,{c1a1cd7a-09d8-4735-9b6f-611058f74b38}
+{46b0ca0d-fe43-4a1b-bb2a-745ad8819e15},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,02 53,02 53,{360bceb7-1f73-42e0-85fd-aef1fda4ae4a}
+{f5e865e7-0702-430c-8ea5-6123b4bdf2c4},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,02 03,02 03,{ea3a8b5f-563e-43cc-9cf4-76f017163675}
+{0ae734a7-8eed-47bf-9e43-14d6f883dd9e},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 22,03 22,{f4065ec0-498b-496a-970c-cd1aafe21eb3}
+{09d13679-5eb6-4778-94ec-e77a4fd0298b},"This is my title updated","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 07,21 07,{218b237d-70f9-47f9-a1c5-72a28587b76b}
+{f790498b-87cc-4139-ab17-63a6fa695fd8},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 50,03 50,{40a0ef22-55f9-4cc8-b200-d5253cf84985}
+{8bb42c4d-4662-4054-a685-72f64be89de3},"Event 1","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 12,21 12,{ab182880-e6a0-402c-824a-012d127c2869}
+{45a375c8-ff9d-4017-9286-ef927dd23ffc},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 52,03 52,{cc8fd392-e12a-44c6-8281-1e4f2413a427}
+{e175ee32-eeb0-40bf-97f2-0879824131cf},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 22,03 22,{4a16ba58-5d7d-4ff4-bf38-de1f9ce59b4d}
+{e1130b5c-8727-4826-a144-759ffffa94d3},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 34,03 34,{d9773e75-930e-488e-bf97-b06291e138d9}
+{c425c699-56aa-4adc-a6c9-04034116741a},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 09,04 09,{00ef570e-4d07-4ac3-9286-842d7a60ce2e}
+{95213969-f5dc-4fe1-83d4-0a8cc842d21c},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,02 18,02 18,{3d31f483-b54b-437f-acec-f13f11e1d64f}
+{08dd66e4-0bee-466f-b6f0-4d1f22b42c30},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 59,03 59,{0c19752c-de8c-4f66-9465-d53e2d6c3ba0}
+{d4cfb8b5-e95e-4b22-a1c1-5b18db8666d4},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 55,03 55,{e612d56c-d7ab-4d9f-b9c4-2f2ffea0f56c}
+{16cc559e-abe7-4b5f-aedc-cd748ef68a2e},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 35,03 35,{59dca5c6-f91f-4d49-8747-e48dc3459c9e}
+{94041af3-f85a-475b-a157-71f520097200},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 26,04 26,{78aa6277-dcd6-4fe9-9929-7595d68ca309}
+{9cae2fc8-1783-4ed0-b041-152e0214a03a},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 22,03 22,{83203f15-e237-4ef4-9095-a9b4e1c340a1}
+{ac795926-c6ab-42d7-842b-3502fc9ad9db},"This is my title updated","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 07,21 07,{fc666473-5fa7-438a-b2c4-757b5e9e7615}
+{3a5e6ea7-870e-4d75-bde5-7184c3b94678},"This is my title updated","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 12,21 12,{1929ab5a-9bb5-4108-94f4-80bcc11556c3}
+{97c70567-252c-4922-bfb2-71d6f5ea48cb},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 58,03 58,{aecda7ab-a53a-4127-b991-8cdce7575366}
+{fdc6a218-d271-4b49-84c7-f2052152ae3d},"This is my title updated","Learn advanced photography techniques from a professional.",20,"Photography Studio",2024 05 30,2024 05 30,12 00,15 00,{36cf50e9-83a3-486f-9bcb-e4935b5eb047}
+{64649165-a5c3-4d0e-8b5d-0a8f7d04b67a},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 58,03 58,{3fb1b619-6d46-4639-b240-236298208774}
+{3abd55cb-cabd-4a52-899b-91d571218bec},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 27,03 27,{a4f4e2ed-5d91-44ca-9f95-e3b234fe913e}
+{a9f3501f-3c5d-4f8f-a860-08fd992c6df9},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 47,04 47,{38858f86-ac0b-4a4a-a352-b7d5d580b357}
+{5e057939-f493-4ae6-8845-5feb1adc9601},"This is my title updated","A program focused on startup development and business strategies.",30,"Startup Lab",2024 06 10,2024 06 12,09 00,17 00,{1b1152bb-71c9-4078-81e7-4d4322c5fd01}
+{e806b721-a787-49c8-8240-ffbff02e6062},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,05 00,05 00,{9a3e5b35-f6cc-4bc8-8cfc-f990eb7ce31a}
+{9174b0a0-ff10-443c-a822-6f3cf14dc9fa},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 03,03 03,{a58f3017-6e90-4322-9d60-07606e8d3295}
+{8a480633-c6f6-4f8a-84cb-a31de5fa19ae},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 59,04 59,{7a37eae5-1c74-4590-8b12-8bf40377ff95}
+{8af387d3-bed2-459c-ab71-82a700e42cd6},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 53,03 53,{ebc573a3-8c42-4832-9b17-fbbc6fee5296}
+{1d694197-91c3-428a-940f-7493ff61c2b6},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 56,04 56,{ee686e55-23d8-4d25-921e-e97ae218e4c2}
+{e8258fa2-db51-4a5c-91f5-01dfca92575d},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 52,03 52,{05830ae4-405d-4c79-b5b3-95b3bd18a5c7}
+{018ec434-851f-4e05-b65f-19654a88bc20},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,01 31,01 31,{fe764fc0-e6fe-4b99-b761-37056d2db8d4}
+{0d8aad1e-3c90-4125-8d4f-32e0a0ea1001},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,02 22,02 22,{d99cdd72-ab4a-46e7-ade2-f390b8ac11b9}
+{b52ef4ad-e54a-409c-9abe-88e53882aa68},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 18,04 18,{e994a1ad-5293-4b2c-ae1c-6b518aa914ff}
+{b1867bc2-5ec7-4fcc-8e35-e7c0fa2832a3},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 58,03 58,{c0d0127a-dcdf-4aca-a404-2fbfa5ee3325}
+{3189b1dd-e735-48bd-9f26-db54c6fc2923},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,02 19,02 19,{b67ee02c-3453-4271-877d-3fe73f45f10f}
+{19db6a2c-5a37-4aed-8476-1a5646a197d5},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 51,03 51,{02552fda-c752-4f4f-b274-1880404b4634}
+{a48185ba-2e22-4b92-93d5-9ddd088eefde},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 03,03 03,{7c5b9ed2-546c-4d1c-932c-d2847add9f31}
+{b846e895-131f-4571-a04f-307fab3f4767},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,02 53,02 53,{f053fa30-1ccd-45d4-ae84-a7dd6489d212}
+{012b30e8-d299-4581-bd5b-5c06380ccdf9},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,02 01,02 01,{356dc3c9-55b2-4cf7-b7cd-cfed395c1e51}
+{55a6906f-09dc-4c29-bc3a-064f7f82ad76},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 59,03 59,{e7481061-9142-4559-8d70-bdbbfaa5dc3b}
+{92acb5df-1f7c-49a6-a150-8f96d20abdbe},"This is my title updated","An expo showcasing health products and wellness strategies.",150,"Exhibition Hall B",2024 06 20,2024 06 21,09 00,18 00,{17a6688b-5909-48c1-8321-e6711f919dbd}
+{2c2bf27b-2214-4734-a02c-f15c258db2b2},"This is my title updated","An introductory seminar on blockchain technology and applications.",75,"Room C3",2024 05 25,2024 05 25,13 30,15 30,{a25c870e-8a39-4666-b7bd-c3faae1d74b8}
+{dbd88ee2-a900-481b-a0ef-07b2eab856d2},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 42,04 42,{b50c8d00-d5af-4a8a-924f-ffac15f12489}
+{c24c6097-1c55-43b2-9d08-d0c063790ab5},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,02 38,02 38,{f6bbe6e3-1c11-484a-a9a7-bb8720b9d128}
+{230dc49f-ee90-495d-a1e9-5ef8820f0b5a},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 00,04 00,{29468035-d3f2-4689-8d2f-387d7ac6018a}
+{12ace7f6-35f5-4f19-bd50-b0aaf0584b00},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 24,03 24,{d3352b0f-9daa-4c86-89bc-a64656de4c42}
+{0eb42e7d-6c51-4db6-8a1f-291af86d5e92},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 50,03 50,{01dd1402-892d-4d38-a5bd-bacafc1efc06}
+{0e48bcaa-15b3-4a9a-86dd-db35da44c48d},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 23,04 23,{60bf46c9-2e4b-4255-8c5e-0329625d44c3}
+{43954878-b633-4223-b2be-8a4496398fae},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 45,04 45,{df4f9276-89cb-4a66-bcfa-b7d1637a6b2c}
+{73ed02f8-c3bc-43af-b139-78bd72c6882d},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 49,04 49,{6c706671-f051-488d-8ae6-2b612bc305ef}
+{44d09b98-7550-4795-9a70-73e25b9c9cff},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 41,04 41,{faa50904-63e4-48bb-8669-1f24f1c93cc5}
+{322b4815-d534-4175-8630-b00c5557dcfa},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,02 48,02 48,{6502d36a-13f3-4df2-93b4-9837ec40303f}
+{58296abf-fdba-47e8-8103-c1654e2f7bb0},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 19,04 19,{3afde7bd-2c5e-4c62-8ab9-30e42888a29a}
+{846bae67-3385-40f3-9e24-398f3c8622bc},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,01 52,01 52,{0b676ece-fe8a-4796-ae5a-b899734887f4}
+{f170e307-7fb4-4321-9000-7e261841b047},"This is my title updated","A hands-on workshop on digital marketing strategies and tools.",50,"Room B1",2024 05 20,2024 05 20,10 00,14 00,{d5276092-7fbe-4c9c-9d1e-9e3016262207}
+{604d8bd9-25d7-4cfe-a678-73247ef143f9},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 26,03 26,{c709337f-7ce4-40a4-8a47-0ba630ecf402}
+{5db3d7ba-0c57-477c-8561-7fd7f95707eb},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 56,03 56,{d8cfc443-66b1-4f9a-ba9f-e51e6af83c16}
+{a3533268-ac93-4f3c-a712-1f055fe66033},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 25,04 25,{a7e1a751-f4ad-4bc7-8d31-bd7f4afc95dd}
+{86606322-eac1-4327-aa30-8433004e6b1e},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 31,04 31,{2e523389-faeb-4884-b9de-1d5806e9028e}
+{2057e982-e17f-4583-bf2a-8683158387be},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 43,04 43,{2d6b201e-b2f5-4b91-b019-5f892f412cfe}
+{fc1dc103-aba9-496e-b177-f95c3c33c10d},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,05 01,05 01,{d0ea1e0c-838a-47f6-be64-07cc47b9959b}
+{33056420-970d-4ec5-965c-0672b9885fab},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 39,04 39,{bb7794bc-2049-4f15-ad7b-aa5b428b9ac6}
+{f345b389-f1d0-420f-9437-fe0524686dab},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 16,04 16,{c5f68f20-4352-4e86-a19d-d9c1009e71f7}
+{1a977ea9-8c24-4acc-9d4a-4d693e586417},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 27,03 27,{f3ff6002-a95a-4c08-abde-07d7a922fd06}
+{1ea6914c-c9de-49ff-9329-766ded99bc11},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 16,04 16,{bfe336f5-ab1e-4ac1-8096-ed67b8b9a49d}
+{efe70161-30f3-4128-9c1b-6c87a90cf2ff},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 24,04 24,{123ca661-88da-4211-bd8a-3b71f428922a}
+{6fb7fd95-69fe-4a97-885e-acfd777c4173},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,02 23,02 23,{54e4593b-2d35-46b2-9300-00533c9223e1}
+{e1ba9d35-98a2-4481-a80e-8dc5701b96b7},"This is my title updated","A discussion on sustainable practices and climate change mitigation.",100,"Main Auditorium",2024 06 01,2024 06 01,11 00,16 00,{9bea0f65-f87c-4004-be48-563a24090215}
+{2cce7a5e-d218-494f-9a5f-85669a4961c5},"This is my title updated","A workshop for aspiring writers to hone their storytelling skills.",25,"Room D4",2024 06 05,2024 06 05,10 00,13 00,{3506f529-07cd-4c09-8a4d-8d3d6c3745b1}
+{2bb8c280-1f45-4824-8664-2d83a3e0eca1},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 02,04 02,{d452946f-6ba2-4a66-a396-e45c1be774f8}
+{a4c98211-34c4-44c3-b63e-6d00ae054f32},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 48,03 48,{1bddaf74-9eac-44ab-b19d-a6a7252127cc}
+{b69ce123-f038-4a90-81bd-59d34bfdf72a},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 27,03 27,{97aa5fb6-cdbc-4f72-bcf8-00310d46c0d5}
+{beecd38b-0a77-47b4-8316-0caf1695a6b3},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,02 08,02 08,{5cf599f8-85f6-42c7-bed4-d84a4511dee3}
+=======
 {bbca404c-4d93-43a9-af49-c102d62ac7b2},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,14 46,14 46,{4230631f-6db7-4b60-bb38-dad1dcd5794f}
 {e1ba9d35-98a2-4481-a80e-8dc5701b96b7},"This is my title updated","A discussion on sustainable practices and climate change mitigation.",100,"Main Auditorium",2024 06 01,2024 06 01,11 00,16 00,{9bea0f65-f87c-4004-be48-563a24090215}
 {2cce7a5e-d218-494f-9a5f-85669a4961c5},"This is my title updated","A workshop for aspiring writers to hone their storytelling skills.",25,"Room D4",2024 06 05,2024 06 05,10 00,13 00,{3506f529-07cd-4c09-8a4d-8d3d6c3745b1}
@@ -41,3 +126,143 @@ id,title,description,capacity,location,date_time
 {92acb5df-1f7c-49a6-a150-8f96d20abdbe},"New Title","An expo showcasing health products and wellness strategies.",150,"Exhibition Hall B",2024 06 20,2024 06 21,09 00,18 00,{17a6688b-5909-48c1-8321-e6711f919dbd}
 {8d39d0f6-d0e7-4e7f-9d8a-05511ae4cd4f},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,00 42,00 42,{ca4d3905-121e-4420-87fe-34679cc3cf16}
 {2c2bf27b-2214-4734-a02c-f15c258db2b2},"This is my title updated","An introductory seminar on blockchain technology and applications.",75,"Room C3",2024 05 25,2024 05 25,13 30,15 30,{a25c870e-8a39-4666-b7bd-c3faae1d74b8}
+=======
+id,title,description,capacity,location,date_time
+<<<<<<< HEAD
+{e7a7014e-40d1-41f0-a2b9-7cd0dd2599ad},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 25,03 25,{b3e4501d-8f2f-4e82-a39a-af2a40355f18}
+{f0208ca4-1fde-4b2f-86ae-86bbfc0cebdc},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 21,04 21,{904467fd-3747-408e-b757-2191a20f3b17}
+{7e4caf38-b9d2-4094-9355-56ef8bc27c1b},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 39,03 39,{58afa391-d227-4a81-aeb8-cdd37eeb12d2}
+{a28d3803-c3c9-47ff-b85d-06b983aba592},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 19,04 19,{fc00a8d8-0829-4ed2-9d6e-6e4a18994645}
+{ffe7f582-e958-4213-8527-7c29c0adfee7},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 51,03 51,{aa71f42e-f18a-4fde-aa59-9fc3a50790ee}
+{8b4cd361-20aa-4093-8f84-180aec4c26d5},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 53,03 53,{bcb574c9-4de3-4245-b8b4-e6967afa8a70}
+{85eab54e-746f-4f2e-a8f0-760431ad9534},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 48,03 48,{d887236b-c971-4937-8b32-6412ca2df116}
+{a02da0ad-f866-4430-90ca-b8999c76405d},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 58,03 58,{00b7c1b0-7c9b-414b-8ebe-0ac42cd04aa0}
+{670c4a26-dadd-45f1-b023-1d8a8f13867e},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,05 00,05 00,{a1472a1a-8001-48a6-8d81-9b2347fde3a6}
+{42edc94a-9949-4a4d-8f27-9154c1891752},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,05 01,05 01,{c1a1cd7a-09d8-4735-9b6f-611058f74b38}
+{46b0ca0d-fe43-4a1b-bb2a-745ad8819e15},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,02 53,02 53,{360bceb7-1f73-42e0-85fd-aef1fda4ae4a}
+{f5e865e7-0702-430c-8ea5-6123b4bdf2c4},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,02 03,02 03,{ea3a8b5f-563e-43cc-9cf4-76f017163675}
+{0ae734a7-8eed-47bf-9e43-14d6f883dd9e},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 22,03 22,{f4065ec0-498b-496a-970c-cd1aafe21eb3}
+{09d13679-5eb6-4778-94ec-e77a4fd0298b},"This is my title updated","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 07,21 07,{218b237d-70f9-47f9-a1c5-72a28587b76b}
+{f790498b-87cc-4139-ab17-63a6fa695fd8},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 50,03 50,{40a0ef22-55f9-4cc8-b200-d5253cf84985}
+{8bb42c4d-4662-4054-a685-72f64be89de3},"Event 1","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 12,21 12,{ab182880-e6a0-402c-824a-012d127c2869}
+{45a375c8-ff9d-4017-9286-ef927dd23ffc},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 52,03 52,{cc8fd392-e12a-44c6-8281-1e4f2413a427}
+{e175ee32-eeb0-40bf-97f2-0879824131cf},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 22,03 22,{4a16ba58-5d7d-4ff4-bf38-de1f9ce59b4d}
+{e1130b5c-8727-4826-a144-759ffffa94d3},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 34,03 34,{d9773e75-930e-488e-bf97-b06291e138d9}
+{c425c699-56aa-4adc-a6c9-04034116741a},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 09,04 09,{00ef570e-4d07-4ac3-9286-842d7a60ce2e}
+{95213969-f5dc-4fe1-83d4-0a8cc842d21c},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,02 18,02 18,{3d31f483-b54b-437f-acec-f13f11e1d64f}
+{08dd66e4-0bee-466f-b6f0-4d1f22b42c30},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 59,03 59,{0c19752c-de8c-4f66-9465-d53e2d6c3ba0}
+{d4cfb8b5-e95e-4b22-a1c1-5b18db8666d4},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 55,03 55,{e612d56c-d7ab-4d9f-b9c4-2f2ffea0f56c}
+{16cc559e-abe7-4b5f-aedc-cd748ef68a2e},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 35,03 35,{59dca5c6-f91f-4d49-8747-e48dc3459c9e}
+{94041af3-f85a-475b-a157-71f520097200},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 26,04 26,{78aa6277-dcd6-4fe9-9929-7595d68ca309}
+{9cae2fc8-1783-4ed0-b041-152e0214a03a},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 22,03 22,{83203f15-e237-4ef4-9095-a9b4e1c340a1}
+{ac795926-c6ab-42d7-842b-3502fc9ad9db},"This is my title updated","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 07,21 07,{fc666473-5fa7-438a-b2c4-757b5e9e7615}
+{3a5e6ea7-870e-4d75-bde5-7184c3b94678},"This is my title updated","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 12,21 12,{1929ab5a-9bb5-4108-94f4-80bcc11556c3}
+{97c70567-252c-4922-bfb2-71d6f5ea48cb},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 58,03 58,{aecda7ab-a53a-4127-b991-8cdce7575366}
+{fdc6a218-d271-4b49-84c7-f2052152ae3d},"This is my title updated","Learn advanced photography techniques from a professional.",20,"Photography Studio",2024 05 30,2024 05 30,12 00,15 00,{36cf50e9-83a3-486f-9bcb-e4935b5eb047}
+{64649165-a5c3-4d0e-8b5d-0a8f7d04b67a},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 58,03 58,{3fb1b619-6d46-4639-b240-236298208774}
+{3abd55cb-cabd-4a52-899b-91d571218bec},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 27,03 27,{a4f4e2ed-5d91-44ca-9f95-e3b234fe913e}
+{a9f3501f-3c5d-4f8f-a860-08fd992c6df9},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 47,04 47,{38858f86-ac0b-4a4a-a352-b7d5d580b357}
+{5e057939-f493-4ae6-8845-5feb1adc9601},"This is my title updated","A program focused on startup development and business strategies.",30,"Startup Lab",2024 06 10,2024 06 12,09 00,17 00,{1b1152bb-71c9-4078-81e7-4d4322c5fd01}
+{e806b721-a787-49c8-8240-ffbff02e6062},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,05 00,05 00,{9a3e5b35-f6cc-4bc8-8cfc-f990eb7ce31a}
+{9174b0a0-ff10-443c-a822-6f3cf14dc9fa},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 03,03 03,{a58f3017-6e90-4322-9d60-07606e8d3295}
+{8a480633-c6f6-4f8a-84cb-a31de5fa19ae},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 59,04 59,{7a37eae5-1c74-4590-8b12-8bf40377ff95}
+{8af387d3-bed2-459c-ab71-82a700e42cd6},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 53,03 53,{ebc573a3-8c42-4832-9b17-fbbc6fee5296}
+{1d694197-91c3-428a-940f-7493ff61c2b6},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 56,04 56,{ee686e55-23d8-4d25-921e-e97ae218e4c2}
+{e8258fa2-db51-4a5c-91f5-01dfca92575d},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 52,03 52,{05830ae4-405d-4c79-b5b3-95b3bd18a5c7}
+{018ec434-851f-4e05-b65f-19654a88bc20},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,01 31,01 31,{fe764fc0-e6fe-4b99-b761-37056d2db8d4}
+{0d8aad1e-3c90-4125-8d4f-32e0a0ea1001},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,02 22,02 22,{d99cdd72-ab4a-46e7-ade2-f390b8ac11b9}
+{b52ef4ad-e54a-409c-9abe-88e53882aa68},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 18,04 18,{e994a1ad-5293-4b2c-ae1c-6b518aa914ff}
+{b1867bc2-5ec7-4fcc-8e35-e7c0fa2832a3},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 58,03 58,{c0d0127a-dcdf-4aca-a404-2fbfa5ee3325}
+{3189b1dd-e735-48bd-9f26-db54c6fc2923},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,02 19,02 19,{b67ee02c-3453-4271-877d-3fe73f45f10f}
+{19db6a2c-5a37-4aed-8476-1a5646a197d5},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 51,03 51,{02552fda-c752-4f4f-b274-1880404b4634}
+{a48185ba-2e22-4b92-93d5-9ddd088eefde},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 03,03 03,{7c5b9ed2-546c-4d1c-932c-d2847add9f31}
+{b846e895-131f-4571-a04f-307fab3f4767},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,02 53,02 53,{f053fa30-1ccd-45d4-ae84-a7dd6489d212}
+{012b30e8-d299-4581-bd5b-5c06380ccdf9},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,02 01,02 01,{356dc3c9-55b2-4cf7-b7cd-cfed395c1e51}
+{55a6906f-09dc-4c29-bc3a-064f7f82ad76},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 59,03 59,{e7481061-9142-4559-8d70-bdbbfaa5dc3b}
+{92acb5df-1f7c-49a6-a150-8f96d20abdbe},"This is my title updated","An expo showcasing health products and wellness strategies.",150,"Exhibition Hall B",2024 06 20,2024 06 21,09 00,18 00,{17a6688b-5909-48c1-8321-e6711f919dbd}
+{2c2bf27b-2214-4734-a02c-f15c258db2b2},"This is my title updated","An introductory seminar on blockchain technology and applications.",75,"Room C3",2024 05 25,2024 05 25,13 30,15 30,{a25c870e-8a39-4666-b7bd-c3faae1d74b8}
+{dbd88ee2-a900-481b-a0ef-07b2eab856d2},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 42,04 42,{b50c8d00-d5af-4a8a-924f-ffac15f12489}
+{c24c6097-1c55-43b2-9d08-d0c063790ab5},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,02 38,02 38,{f6bbe6e3-1c11-484a-a9a7-bb8720b9d128}
+{230dc49f-ee90-495d-a1e9-5ef8820f0b5a},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 00,04 00,{29468035-d3f2-4689-8d2f-387d7ac6018a}
+{12ace7f6-35f5-4f19-bd50-b0aaf0584b00},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 24,03 24,{d3352b0f-9daa-4c86-89bc-a64656de4c42}
+{0eb42e7d-6c51-4db6-8a1f-291af86d5e92},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 50,03 50,{01dd1402-892d-4d38-a5bd-bacafc1efc06}
+{0e48bcaa-15b3-4a9a-86dd-db35da44c48d},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 23,04 23,{60bf46c9-2e4b-4255-8c5e-0329625d44c3}
+{43954878-b633-4223-b2be-8a4496398fae},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 45,04 45,{df4f9276-89cb-4a66-bcfa-b7d1637a6b2c}
+{73ed02f8-c3bc-43af-b139-78bd72c6882d},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 49,04 49,{6c706671-f051-488d-8ae6-2b612bc305ef}
+{44d09b98-7550-4795-9a70-73e25b9c9cff},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 41,04 41,{faa50904-63e4-48bb-8669-1f24f1c93cc5}
+{322b4815-d534-4175-8630-b00c5557dcfa},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,02 48,02 48,{6502d36a-13f3-4df2-93b4-9837ec40303f}
+{58296abf-fdba-47e8-8103-c1654e2f7bb0},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 19,04 19,{3afde7bd-2c5e-4c62-8ab9-30e42888a29a}
+{846bae67-3385-40f3-9e24-398f3c8622bc},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,01 52,01 52,{0b676ece-fe8a-4796-ae5a-b899734887f4}
+{f170e307-7fb4-4321-9000-7e261841b047},"This is my title updated","A hands-on workshop on digital marketing strategies and tools.",50,"Room B1",2024 05 20,2024 05 20,10 00,14 00,{d5276092-7fbe-4c9c-9d1e-9e3016262207}
+{604d8bd9-25d7-4cfe-a678-73247ef143f9},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 26,03 26,{c709337f-7ce4-40a4-8a47-0ba630ecf402}
+{5db3d7ba-0c57-477c-8561-7fd7f95707eb},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 56,03 56,{d8cfc443-66b1-4f9a-ba9f-e51e6af83c16}
+{a3533268-ac93-4f3c-a712-1f055fe66033},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 25,04 25,{a7e1a751-f4ad-4bc7-8d31-bd7f4afc95dd}
+{86606322-eac1-4327-aa30-8433004e6b1e},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 31,04 31,{2e523389-faeb-4884-b9de-1d5806e9028e}
+{2057e982-e17f-4583-bf2a-8683158387be},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 43,04 43,{2d6b201e-b2f5-4b91-b019-5f892f412cfe}
+{fc1dc103-aba9-496e-b177-f95c3c33c10d},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,05 01,05 01,{d0ea1e0c-838a-47f6-be64-07cc47b9959b}
+{33056420-970d-4ec5-965c-0672b9885fab},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 39,04 39,{bb7794bc-2049-4f15-ad7b-aa5b428b9ac6}
+{f345b389-f1d0-420f-9437-fe0524686dab},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 16,04 16,{c5f68f20-4352-4e86-a19d-d9c1009e71f7}
+{1a977ea9-8c24-4acc-9d4a-4d693e586417},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 27,03 27,{f3ff6002-a95a-4c08-abde-07d7a922fd06}
+{1ea6914c-c9de-49ff-9329-766ded99bc11},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 16,04 16,{bfe336f5-ab1e-4ac1-8096-ed67b8b9a49d}
+{efe70161-30f3-4128-9c1b-6c87a90cf2ff},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 24,04 24,{123ca661-88da-4211-bd8a-3b71f428922a}
+{6fb7fd95-69fe-4a97-885e-acfd777c4173},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,02 23,02 23,{54e4593b-2d35-46b2-9300-00533c9223e1}
+{e1ba9d35-98a2-4481-a80e-8dc5701b96b7},"This is my title updated","A discussion on sustainable practices and climate change mitigation.",100,"Main Auditorium",2024 06 01,2024 06 01,11 00,16 00,{9bea0f65-f87c-4004-be48-563a24090215}
+{2cce7a5e-d218-494f-9a5f-85669a4961c5},"This is my title updated","A workshop for aspiring writers to hone their storytelling skills.",25,"Room D4",2024 06 05,2024 06 05,10 00,13 00,{3506f529-07cd-4c09-8a4d-8d3d6c3745b1}
+{2bb8c280-1f45-4824-8664-2d83a3e0eca1},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,04 02,04 02,{d452946f-6ba2-4a66-a396-e45c1be774f8}
+{a4c98211-34c4-44c3-b63e-6d00ae054f32},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 48,03 48,{1bddaf74-9eac-44ab-b19d-a6a7252127cc}
+{b69ce123-f038-4a90-81bd-59d34bfdf72a},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,03 27,03 27,{97aa5fb6-cdbc-4f72-bcf8-00310d46c0d5}
+{beecd38b-0a77-47b4-8316-0caf1695a6b3},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,02 08,02 08,{5cf599f8-85f6-42c7-bed4-d84a4511dee3}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+{bbca404c-4d93-43a9-af49-c102d62ac7b2},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,14 46,14 46,{4230631f-6db7-4b60-bb38-dad1dcd5794f}
+{e1ba9d35-98a2-4481-a80e-8dc5701b96b7},"This is my title updated","A discussion on sustainable practices and climate change mitigation.",100,"Main Auditorium",2024 06 01,2024 06 01,11 00,16 00,{9bea0f65-f87c-4004-be48-563a24090215}
+{2cce7a5e-d218-494f-9a5f-85669a4961c5},"This is my title updated","A workshop for aspiring writers to hone their storytelling skills.",25,"Room D4",2024 06 05,2024 06 05,10 00,13 00,{3506f529-07cd-4c09-8a4d-8d3d6c3745b1}
+{8f338041-c5f9-4e95-b476-87db2667591b},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,14 47,14 47,{c804a5f1-6691-432b-b5fd-18103751e6b2}
+{5e057939-f493-4ae6-8845-5feb1adc9601},"New Title","A program focused on startup development and business strategies.",30,"Startup Lab",2024 06 10,2024 06 12,09 00,17 00,{1b1152bb-71c9-4078-81e7-4d4322c5fd01}
+{9640133a-4453-4e67-99e6-257e7ebc9c50},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,00 59,00 59,{391135f8-247b-411c-a4a6-0a6c36fced09}
+{402ca292-c8c2-4466-861a-af14f330d283},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,14 45,14 45,{66c881e1-8f52-47bc-8fee-45258ae97abe}
+{f170e307-7fb4-4321-9000-7e261841b047},"This is my title updated","A hands-on workshop on digital marketing strategies and tools.",50,"Room B1",2024 05 20,2024 05 20,10 00,14 00,{d5276092-7fbe-4c9c-9d1e-9e3016262207}
+{fdc6a218-d271-4b49-84c7-f2052152ae3d},"This is my title updated","Learn advanced photography techniques from a professional.",20,"Photography Studio",2024 05 30,2024 05 30,12 00,15 00,{36cf50e9-83a3-486f-9bcb-e4935b5eb047}
+{ac795926-c6ab-42d7-842b-3502fc9ad9db},"Event 1","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 07,21 07,{fc666473-5fa7-438a-b2c4-757b5e9e7615}
+{3a5e6ea7-870e-4d75-bde5-7184c3b94678},"Event 1","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 12,21 12,{1929ab5a-9bb5-4108-94f4-80bcc11556c3}
+{0503cbba-08b7-4eac-973d-7b1954db7639},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,14 44,14 44,{0c61475d-8193-45f0-9eba-6a139b1a39dd}
+{5517ff60-1fac-4e02-ba5c-0abbf34ef457},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,14 47,14 47,{a8bf9e21-6535-4fa3-93cf-4ef8e017cda1}
+{8bb42c4d-4662-4054-a685-72f64be89de3},"This is my title updated","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 12,21 12,{ab182880-e6a0-402c-824a-012d127c2869}
+{09d13679-5eb6-4778-94ec-e77a4fd0298b},"Event 1","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 07,21 07,{218b237d-70f9-47f9-a1c5-72a28587b76b}
+{156fb3c2-b8ab-4043-bcd3-6436aa406960},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,14 48,14 48,{6f8acfca-ba0c-4728-b9fe-a60e62ba4425}
+{47a40650-d7f8-4241-8528-d1c89bda0cd5},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,13 07,13 07,{978f102c-1999-463b-8a78-101b8941fd45}
+{92acb5df-1f7c-49a6-a150-8f96d20abdbe},"New Title","An expo showcasing health products and wellness strategies.",150,"Exhibition Hall B",2024 06 20,2024 06 21,09 00,18 00,{17a6688b-5909-48c1-8321-e6711f919dbd}
+{e8e63529-1e77-416e-a6da-ac04f347a2d7},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,14 45,14 45,{dff437ab-70e7-4225-9e51-a89ec9d8cd92}
+{2c2bf27b-2214-4734-a02c-f15c258db2b2},"This is my title updated","An introductory seminar on blockchain technology and applications.",75,"Room C3",2024 05 25,2024 05 25,13 30,15 30,{a25c870e-8a39-4666-b7bd-c3faae1d74b8}
+{a14a80e5-424d-4757-a4f9-93e2805b93cc},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,14 46,14 46,{d346daae-c836-4a7d-a059-41dee2847374}
+{20bfc288-d653-482b-94dc-61856f8fecc3},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,14 48,14 48,{4b3d29a3-62b5-4bdb-9bf5-5eec80e7caaf}
+{0d51bd46-9aab-45cd-b2f1-1bdf22b849a2},"This is my title updated","Description 1",10,"Location 1",2024 11 23,2024 11 23,13 38,13 38,{9bd674e0-81ca-4c11-8365-df59a40698ad}
+=======
+{5e057939-f493-4ae6-8845-5feb1adc9601},"New Title","A program focused on startup development and business strategies.",30,"Startup Lab",2024 06 10,2024 06 12,09 00,17 00,{1b1152bb-71c9-4078-81e7-4d4322c5fd01}
+{3a5e6ea7-870e-4d75-bde5-7184c3b94678},"This is my title updated","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 12,21 12,{1929ab5a-9bb5-4108-94f4-80bcc11556c3}
+{ac795926-c6ab-42d7-842b-3502fc9ad9db},"Event 1","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 07,21 07,{fc666473-5fa7-438a-b2c4-757b5e9e7615}
+{f170e307-7fb4-4321-9000-7e261841b047},"AUC ICPC Community Trivia Night","A hands-on workshop on digital marketing strategies and tools.",50,"Room B1",2024 05 20,2024 05 20,10 00,14 00,{d5276092-7fbe-4c9c-9d1e-9e3016262207}
+{fdc6a218-d271-4b49-84c7-f2052152ae3d},"This is my title updated","Learn advanced photography techniques from a professional.",20,"Photography Studio",2024 05 30,2024 05 30,12 00,15 00,{36cf50e9-83a3-486f-9bcb-e4935b5eb047}
+=======
+>>>>>>> 848a26b (Authentication Repository: initial commit)
+{e1ba9d35-98a2-4481-a80e-8dc5701b96b7},"AUC ICPC Community Trivia Night","A discussion on sustainable practices and climate change mitigation.",100,"Main Auditorium",2024 06 01,2024 06 01,11 00,16 00,{9bea0f65-f87c-4004-be48-563a24090215}
+{2cce7a5e-d218-494f-9a5f-85669a4961c5},"This is my title updated","A workshop for aspiring writers to hone their storytelling skills.",25,"Room D4",2024 06 05,2024 06 05,10 00,13 00,{3506f529-07cd-4c09-8a4d-8d3d6c3745b1}
+{683aa50f-67c9-45e6-bd58-897763aec557},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,01 47,01 47,{36bf49f6-dabf-41fb-a9f8-8ae497c065e0}
+{fdc6a218-d271-4b49-84c7-f2052152ae3d},"This is my title updated","Learn advanced photography techniques from a professional.",20,"Photography Studio",2024 05 30,2024 05 30,12 00,15 00,{36cf50e9-83a3-486f-9bcb-e4935b5eb047}
+{f170e307-7fb4-4321-9000-7e261841b047},"AUC ICPC Community Trivia Night","A hands-on workshop on digital marketing strategies and tools.",50,"Room B1",2024 05 20,2024 05 20,10 00,14 00,{d5276092-7fbe-4c9c-9d1e-9e3016262207}
+{3a5e6ea7-870e-4d75-bde5-7184c3b94678},"This is my title updated","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 12,21 12,{1929ab5a-9bb5-4108-94f4-80bcc11556c3}
+{ac795926-c6ab-42d7-842b-3502fc9ad9db},"Event 1","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 07,21 07,{fc666473-5fa7-438a-b2c4-757b5e9e7615}
+{5e057939-f493-4ae6-8845-5feb1adc9601},"New Title","A program focused on startup development and business strategies.",30,"Startup Lab",2024 06 10,2024 06 12,09 00,17 00,{1b1152bb-71c9-4078-81e7-4d4322c5fd01}
+{8bb42c4d-4662-4054-a685-72f64be89de3},"Event 1","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 12,21 12,{ab182880-e6a0-402c-824a-012d127c2869}
+<<<<<<< HEAD
+>>>>>>> de5fd0e (Nothing important)
+=======
+{09d13679-5eb6-4778-94ec-e77a4fd0298b},"Event 1","Description 1",10,"Location 1",2024 11 22,2024 11 22,21 07,21 07,{218b237d-70f9-47f9-a1c5-72a28587b76b}
+{acf16312-19ba-403e-be1e-c62fbf82a899},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,00 42,00 42,{c078e561-33fc-4c24-9237-dfc13cf7e1c6}
+{92acb5df-1f7c-49a6-a150-8f96d20abdbe},"New Title","An expo showcasing health products and wellness strategies.",150,"Exhibition Hall B",2024 06 20,2024 06 21,09 00,18 00,{17a6688b-5909-48c1-8321-e6711f919dbd}
+{8d39d0f6-d0e7-4e7f-9d8a-05511ae4cd4f},"Event 1","Description 1",10,"Location 1",2024 11 23,2024 11 23,00 42,00 42,{ca4d3905-121e-4420-87fe-34679cc3cf16}
+{2c2bf27b-2214-4734-a02c-f15c258db2b2},"This is my title updated","An introductory seminar on blockchain technology and applications.",75,"Room C3",2024 05 25,2024 05 25,13 30,15 30,{a25c870e-8a39-4666-b7bd-c3faae1d74b8}
+>>>>>>> 848a26b (Authentication Repository: initial commit)
+>>>>>>> d6fd7def7797670442707463f2bba1c8ac233ecd
+>>>>>>> ec97efa14034ec880c8ed17a49f7192bf9f28a38
