@@ -59,10 +59,6 @@ enum AdminRole {
     Instructor, TA
 };
 
-enum StudentCourseState {
-    Passed, Failed, Current
-};
-
 QStringList parseCsvLine(const QString &line);
 QString getCurrentDir();
 

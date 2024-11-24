@@ -32,7 +32,6 @@ set(HEADERS
 set(UI_FILES
         mainwindow.ui
         course.cpp
-        authenticationrepository.cpp
 )
 
 # Add executable

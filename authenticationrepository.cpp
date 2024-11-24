@@ -81,28 +81,6 @@ void AuthenticationRepository::signup(User* newUser) {
     out << newUser->get_username() << "," << hashed_password << "," << newUser->get_email() << "," << newUser->get_phone_number() << "," << newUser->get_id().toString() << "," << type << "\n";
     file.close();
 
-    // Add userId to the students-courses.csv file
-    if (type == UserType::Student) {
-        file.setFileName(getCurrentDir() + "/students-courses.csv");
-        if (!file.open(QIODevice::Append))
-            throw std::runtime_error(("Could not open file: " + file.fileName() + ", Error: " + file.errorString()).toStdString());
-
-        out.setDevice(&file);
-        out << newUser->get_id().toString() << "\n";
-        file.close();
-    }
-
-    // Add userId to the students-events.csv file
-    if (type == UserType::Student) {
-        file.setFileName(getCurrentDir() + "/students-events.csv");
-        if (!file.open(QIODevice::Append))
-            throw std::runtime_error(("Could not open file: " + file.fileName() + ", Error: " + file.errorString()).toStdString());
-
-        out.setDevice(&file);
-        out << newUser->get_id().toString() << "\n";
-        file.close();
-    }
-
 
     // Writing User Info
     file.setFileName(getCurrentDir() + (type == UserType::Admin ? "/admins-info.csv" : "/students-info.csv"));
