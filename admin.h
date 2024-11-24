@@ -1,7 +1,6 @@
 #ifndef UCMS_ADMIN_H
 #define UCMS_ADMIN_H
 
-#include <QString>
 #include "user.h"
 #include "utils.h"
 

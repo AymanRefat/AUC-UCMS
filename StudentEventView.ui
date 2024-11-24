@@ -6,13 +6,84 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>598</width>
+    <height>365</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <widget class="QTableWidget" name="StEvents_TableWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>60</y>
+     <width>521</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Event title</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Registered students</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>capacity</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Speaker</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>location</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Time</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="StAddEvent_Button">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>310</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add Event</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="StDeleteEvent_Button">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>310</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Delete Event</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>

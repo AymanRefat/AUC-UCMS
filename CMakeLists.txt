@@ -41,7 +41,8 @@ add_executable(UCMS ${SOURCES} ${HEADERS} ${UI_FILES}
     AdminCourseView.h AdminCourseView.cpp AdminCourseView.ui
     StudentCourseView.h StudentCourseView.cpp StudentCourseView.ui
     AdminEventView.h AdminEventView.cpp AdminEventView.ui
-    StudentEventView.h StudentEventView.cpp StudentEventView.ui)
+    StudentEventView.h StudentEventView.cpp StudentEventView.ui
+    adminmanageprerequisites.h adminmanageprerequisites.cpp adminmanageprerequisites.ui)
 
 
 include_directories(.)
