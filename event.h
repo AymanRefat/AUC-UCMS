@@ -17,7 +17,7 @@ public:
     // Getters
     QUuid get_speaker_id() const;
 
-private:
+// private:
     // Setters
     void set_speaker_id(QUuid speaker_id);
 };

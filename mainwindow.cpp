@@ -3,6 +3,7 @@
 #include "dashboard.h"
 #include "ui_mainwindow.h"
 #include "register.h"
+#include "utils.h"
 
 
 MainWindow::MainWindow(QWidget *parent)
@@ -10,6 +11,16 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
+
+    QPixmap heroImage(getCurrentDir() + "/grade.png"); // Ensure path is valid
+    if (!heroImage.isNull()) {
+        int w = ui->label_hero_image->width();
+        int h = ui->label_hero_image->height();
+        ui->label_hero_image->setPixmap(heroImage.scaled(w, h, Qt::KeepAspectRatio));
+    } else {
+        qDebug() << "Failed to load image: grade.png";
+    }
 
 
 }
@@ -34,14 +45,3 @@ void MainWindow::on_pushButton_Login_clicked()
     Dashboard *Dashstudent= new Dashboard(this);
     Dashstudent->show();
 }
-
-
-
-
-void MainWindow::on_pushButton_adminlogin_clicked()
-{
-    hide(); // Hides MainWindow
-    Adminloginpage* admin = new Adminloginpage(this); // Pass MainWindow as the parent
-    admin->show(); // Show the admin login page
-}
-

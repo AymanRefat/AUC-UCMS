@@ -26,17 +26,21 @@ Admin_page::Admin_page(QWidget *parent)
     } else {
         qDebug() << "Failed to load image: to-do-list.png";
     }
-    QPixmap eventsIcon(getCurrentDir() + "/event.png"); // Ensure path is valid
-    if (!scheduleIcon.isNull()) {
-        int w = ui->label_checkmeeetingsicon->width();
-        int h = ui->label_checkmeeetingsicon->height();
-        ui->label_checkmeeetingsicon->setPixmap(eventsIcon.scaled(w, h, Qt::KeepAspectRatio));
-    } else {
-        qDebug() << "Failed to load image: events.png";
-    }
 }
 
 Admin_page::~Admin_page()
 {
     delete ui;
 }
+
+void Admin_page::on_pushButton_courses_clicked()
+{
+    // Send admin to the page where they can add a course
+}
+
+
+void Admin_page::on_pushButton_events_clicked()
+{
+    // Send admin to the page where they can add an event
+}
+

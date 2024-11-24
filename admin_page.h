@@ -15,6 +15,11 @@ public:
     explicit Admin_page(QWidget *parent = nullptr);
     ~Admin_page();
 
+private slots:
+    void on_pushButton_courses_clicked();
+
+    void on_pushButton_events_clicked();
+
 private:
     Ui::Admin_page *ui;
 };

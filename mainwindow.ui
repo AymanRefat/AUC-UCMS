@@ -6,30 +6,59 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>734</width>
+    <height>500</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLineEdit" name="lineEdit_username">
+   <widget class="QLabel" name="label_username">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>70</y>
-      <width>113</width>
-      <height>22</height>
+      <x>40</x>
+      <y>170</y>
+      <width>121</width>
+      <height>16</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700; font-style:italic;&quot;&gt;Username&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>310</y>
+      <width>221</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Don't have an account? Register now!</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit_password">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>130</y>
-      <width>113</width>
+      <x>40</x>
+      <y>240</y>
+      <width>221</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::EchoMode::Password</enum>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_username">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>190</y>
+      <width>221</width>
       <height>22</height>
      </rect>
     </property>
@@ -37,8 +66,8 @@
    <widget class="QPushButton" name="pushButton_Login">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>190</y>
+      <x>40</x>
+      <y>270</y>
       <width>75</width>
       <height>24</height>
      </rect>
@@ -47,37 +76,11 @@
      <string>Login</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_Register">
-    <property name="geometry">
-     <rect>
-      <x>230</x>
-      <y>190</y>
-      <width>75</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Register</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_username">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>70</y>
-      <width>71</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700; font-style:italic;&quot;&gt;Username&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_password">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>130</y>
+      <x>40</x>
+      <y>220</y>
       <width>61</width>
       <height>16</height>
      </rect>
@@ -86,43 +89,43 @@
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700; font-style:italic;&quot;&gt;Password&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_hero_image">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>100</y>
+      <width>281</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Register">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>330</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Register</string>
+    </property>
+   </widget>
    <widget class="QLabel" name="label_enterinformation">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>40</y>
-      <width>201</width>
-      <height>16</height>
+      <x>40</x>
+      <y>110</y>
+      <width>271</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700; font-style:italic; color:#aa0000;&quot;&gt;Please Enter your Information:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_adminlogin">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>380</y>
-      <width>171</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Admin Login</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_enterinformation_2">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>380</y>
-      <width>351</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700; font-style:italic; color:#000000;&quot;&gt;Please press here to go to the admin login page :&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700; font-style:italic; color:#000000;&quot;&gt;Welcome to A+, your way to success.&lt;br/&gt;Please Enter your Information to log in:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
   </widget>
@@ -131,8 +134,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
-     <height>22</height>
+     <width>734</width>
+     <height>18</height>
     </rect>
    </property>
    <widget class="QMenu" name="menulogin_window">
@@ -144,6 +147,12 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
+ <tabstops>
+  <tabstop>lineEdit_username</tabstop>
+  <tabstop>lineEdit_password</tabstop>
+  <tabstop>pushButton_Login</tabstop>
+  <tabstop>pushButton_Register</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>

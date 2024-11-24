@@ -13,78 +13,52 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QLabel" name="label_events">
-   <property name="geometry">
-    <rect>
-     <x>560</x>
-     <y>50</y>
-     <width>131</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700; font-style:italic;&quot;&gt;check my meetings&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_schedules">
    <property name="geometry">
     <rect>
-     <x>300</x>
-     <y>50</y>
-     <width>201</width>
-     <height>21</height>
+     <x>420</x>
+     <y>230</y>
+     <width>211</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700; font-style:italic;&quot;&gt;manages students Registertion&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_checkmeeetingsicon">
-   <property name="geometry">
-    <rect>
-     <x>590</x>
-     <y>10</y>
-     <width>51</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>TextLabel</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:700; font-style:italic;&quot;&gt;Create Events&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_courses">
    <property name="geometry">
     <rect>
-     <x>70</x>
-     <y>50</y>
-     <width>201</width>
+     <x>110</x>
+     <y>230</y>
+     <width>211</width>
      <height>31</height>
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700; font-style:italic;&quot;&gt;manages Courses Data&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:700; font-style:italic;&quot;&gt;Create Courses&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_courses">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>80</y>
-     <width>61</width>
-     <height>24</height>
+     <x>170</x>
+     <y>260</y>
+     <width>91</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="text">
-    <string>View</string>
+    <string>Create</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_managescourseicon">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>10</y>
-     <width>61</width>
-     <height>41</height>
+     <x>160</x>
+     <y>70</y>
+     <width>211</width>
+     <height>141</height>
     </rect>
    </property>
    <property name="text">
@@ -94,10 +68,10 @@
   <widget class="QLabel" name="label_managesregisteration">
    <property name="geometry">
     <rect>
-     <x>360</x>
-     <y>10</y>
-     <width>51</width>
-     <height>41</height>
+     <x>460</x>
+     <y>70</y>
+     <width>211</width>
+     <height>131</height>
     </rect>
    </property>
    <property name="text">
@@ -107,27 +81,14 @@
   <widget class="QPushButton" name="pushButton_events">
    <property name="geometry">
     <rect>
-     <x>600</x>
-     <y>80</y>
-     <width>61</width>
-     <height>24</height>
+     <x>480</x>
+     <y>260</y>
+     <width>91</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="text">
-    <string>View</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton_schedules">
-   <property name="geometry">
-    <rect>
-     <x>360</x>
-     <y>80</y>
-     <width>61</width>
-     <height>24</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>View</string>
+    <string>Create</string>
    </property>
   </widget>
  </widget>

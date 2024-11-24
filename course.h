@@ -27,7 +27,7 @@ public:
     QUuid get_instructor_id() const;
     QSet<Day> get_days() const;
 
-private:
+// private:
     // Setters
     void set_instructor_id(QUuid);
     void set_days(QSet<Day>);
