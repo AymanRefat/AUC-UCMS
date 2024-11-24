@@ -1,14 +1,9 @@
 #include "mainwindow.h"
 #include "adminloginpage.h"
 #include "dashboard.h"
-#include "courserepository.h"
-#include "enrollmentrepository.h"
-#include "eventrepository.h"
-#include "student.h"
 #include "ui_mainwindow.h"
 #include "register.h"
 
-#include "authenticationrepository.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -36,7 +31,7 @@ void MainWindow::on_pushButton_Register_clicked()
 void MainWindow::on_pushButton_Login_clicked()
 {
     hide();
-    Dashboard*Dashstudent= new Dashboard(this);
+    Dashboard *Dashstudent= new Dashboard(this);
     Dashstudent->show();
 }
 

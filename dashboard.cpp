@@ -1,5 +1,6 @@
 #include "dashboard.h"
 #include "ui_dashboard.h"
+#include "utils.h"
 
 Dashboard::Dashboard(QWidget *parent)
     : QDialog(parent)
@@ -8,7 +9,7 @@ Dashboard::Dashboard(QWidget *parent)
     ui->setupUi(this);
 
     // Set an image to the course icon QLabel
-    QPixmap courseIcon("E:\\Picture\\learning.png"); // Ensure path is valid
+    QPixmap courseIcon(getCurrentDir() + "/learning.png"); // Ensure path is valid
     if (!courseIcon.isNull()) {
         int w = ui->label_courseicon->width();
         int h = ui->label_courseicon->height();
@@ -18,7 +19,7 @@ Dashboard::Dashboard(QWidget *parent)
     }
 
     // Set an image to the schedules icon QLabel
-    QPixmap scheduleIcon("C:\\Users\\HP\\Downloads\\to-do-list.png"); // Ensure path is valid
+    QPixmap scheduleIcon(getCurrentDir() + "/to-do-list.png"); // Ensure path is valid
     if (!scheduleIcon.isNull()) {
         int w = ui->label_schedulesicon->width();
         int h = ui->label_schedulesicon->height();
@@ -26,7 +27,7 @@ Dashboard::Dashboard(QWidget *parent)
     } else {
         qDebug() << "Failed to load image: to-do-list.png";
     }
-    QPixmap eventsIcon("C:\\Users\\HP\\Downloads\\event.png"); // Ensure path is valid
+    QPixmap eventsIcon(getCurrentDir() + "/event.png"); // Ensure path is valid
     if (!scheduleIcon.isNull()) {
         int w = ui->label_eventsicon->width();
         int h = ui->label_eventsicon->height();

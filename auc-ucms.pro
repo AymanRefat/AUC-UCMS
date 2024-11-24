@@ -11,44 +11,54 @@ CONFIG += c++17
 SOURCES += \
     activity.cpp \
     activityrepository.cpp \
-    admin_page.cpp \
     adminloginpage.cpp \
+    app.cpp \
+    authenticationrepository.cpp \
     course.cpp \
     courserepository.cpp \
-    dashboard.cpp \
+    enrollmentrepository.cpp \
     eventrepository.cpp \
+    instructor.cpp \
     main.cpp \
-    register.cpp \
     user.cpp \
     student.cpp \
     admin.cpp \
     event.cpp \
     email.cpp \
     utils.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    register.cpp \
+    admin_page.cpp \
+    dashboard.cpp
 
 HEADERS += mainwindow.h \
     activity.h \
     activityrepository.h \
-    admin_page.h \
     adminloginpage.h \
+    app.h \
+    authenticationrepository.h \
     course.h \
     courserepository.h \
-    dashboard.h \
+    enrollmentrepository.h \
     eventrepository.h \
-    register.h \
+    instructor.h \
     user.h \
     student.h \
     admin.h \
     event.h \
     email.h \
     utils.h \
+    register.h \
+    admin_page.h \
+    admin_page.h \
+    dashboard.h
 
-FORMS += mainwindow.ui \
-    admin_page.ui \
+
+FORMS += mainwindow.ui\
     adminloginpage.ui \
-    dashboard.ui \
-    register.ui
+register.ui \
+admin_page.ui \
+dashboard.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -67,8 +77,3 @@ DISTFILES += \
     users-auth.csv
 
 RESOURCES +=
-QT       += core gui
-
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
-
-CONFIG += c++17

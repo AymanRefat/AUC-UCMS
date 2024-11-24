@@ -1,5 +1,6 @@
 #include "admin_page.h"
 #include "ui_admin_page.h"
+#include "utils.h"
 
 Admin_page::Admin_page(QWidget *parent)
     : QDialog(parent)
@@ -7,7 +8,7 @@ Admin_page::Admin_page(QWidget *parent)
 {
     ui->setupUi(this);
     // Set an image to the course icon QLabel
-    QPixmap courseIcon("E:\\Picture\\learning.png"); // Ensure path is valid
+    QPixmap courseIcon(getCurrentDir() + "/learning.png"); // Ensure path is valid
     if (!courseIcon.isNull()) {
         int w = ui->label_managescourseicon->width();
         int h = ui->label_managescourseicon->height();
@@ -17,7 +18,7 @@ Admin_page::Admin_page(QWidget *parent)
     }
 
     // Set an image to the schedules icon QLabel
-    QPixmap scheduleIcon("C:\\Users\\HP\\Downloads\\to-do-list.png"); // Ensure path is valid
+    QPixmap scheduleIcon(getCurrentDir() + "/to-do-list.png"); // Ensure path is valid
     if (!scheduleIcon.isNull()) {
         int w = ui->label_managesregisteration->width();
         int h = ui->label_managesregisteration->height();
@@ -25,7 +26,7 @@ Admin_page::Admin_page(QWidget *parent)
     } else {
         qDebug() << "Failed to load image: to-do-list.png";
     }
-    QPixmap eventsIcon("C:\\Users\\HP\\Downloads\\event.png"); // Ensure path is valid
+    QPixmap eventsIcon(getCurrentDir() + "/event.png"); // Ensure path is valid
     if (!scheduleIcon.isNull()) {
         int w = ui->label_checkmeeetingsicon->width();
         int h = ui->label_checkmeeetingsicon->height();
