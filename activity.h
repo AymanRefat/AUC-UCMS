@@ -34,7 +34,7 @@ public:
     QTime get_end_time() const;
     ActivityType get_type() const;
 
-private:
+// private:
     // Setters
     void set_title(QString);
     void set_description(QString);
