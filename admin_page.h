@@ -20,6 +20,8 @@ private slots:
 
     void on_pushButton_events_clicked();
 
+    void on_DeleteBtn_clicked();
+
 private:
     Ui::Admin_page *ui;
 };

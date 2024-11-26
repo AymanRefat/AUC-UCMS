@@ -100,7 +100,6 @@ void ActivityRepository::load() {
 }
 
 void ActivityRepository::store() {
-
     // Open file
     QFile file(getCurrentDir() + "/" + filename);
 
@@ -155,7 +154,7 @@ void ActivityRepository::store() {
                 << event->get_speaker_id().toString() << "\n";
         }
     }
-
+    qDebug() << "Close: "  << container.size();
     // Closing the file
     file.close();
 }
@@ -166,12 +165,14 @@ void ActivityRepository::add(Activity* activity) {
 }
 
 void ActivityRepository::remove(Activity* activity) {
+
     remove(activity->get_id());
 }
 
 void ActivityRepository::remove(QUuid id) {
     if (!container.contains(id))
         throw std::runtime_error("Activity not found");
+
     container.remove(id);
 }
 

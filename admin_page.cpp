@@ -4,6 +4,7 @@
 #include "admincourseview.h"
 #include "admineventview.h"
 #include "createcourseview.h"
+#include "admindashboard.h"
 
 Admin_page::Admin_page(QWidget *parent)
     : QDialog(parent)
@@ -49,5 +50,12 @@ void Admin_page::on_pushButton_events_clicked()
 {
     AdminEventView *adminEventView = new AdminEventView(this);
     adminEventView->show();
+}
+
+
+void Admin_page::on_DeleteBtn_clicked()
+{
+    AdminDashboard *adminDashboard = new AdminDashboard(this);
+    adminDashboard->show();
 }
 

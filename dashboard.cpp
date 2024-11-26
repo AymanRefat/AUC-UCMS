@@ -52,7 +52,7 @@ void Dashboard::display() {
                 course->get_start_time().toString("hh:mm") + " - " + course->get_end_time().toString("hh:mm") + " - " + s,
                 ui->frame_courses);
             childLayout2->addWidget(secondRow);
-
+// Button
             QPushButton *btn = new QPushButton("Drop", ui->frame_courses);
             btn->setObjectName(course->get_id().toString());
             // Handle when button is clicked
@@ -92,6 +92,7 @@ void Dashboard::display() {
                 ui->frame_events);
             childLayout2->addWidget(secondRow);
 
+            // Button
             QPushButton *btn = new QPushButton("Drop", ui->frame_events);
             btn->setObjectName(event->get_id().toString());
             connect(btn, &QPushButton::clicked, [=](){
