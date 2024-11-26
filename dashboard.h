@@ -19,6 +19,10 @@ public:
 private slots:
     void on_commandLinkButtonCourseRegister_clicked();
 
+    void on_commandLinkButtonEventRegister_clicked();
+
+    void on_commandLinkButton_clicked();
+
 private:
     Ui::Dashboard *ui;
     void display();

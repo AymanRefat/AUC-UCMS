@@ -12,6 +12,8 @@ StudentProfile::StudentProfile(QWidget *parent)
 {
     ui->setupUi(this);
 
+    load_logout_button(this);
+
     // Load image in place of label
     QPixmap pix(getCurrentDir() + "/profile-pic.png") ;
     int w = ui->label_image->width();
@@ -24,6 +26,7 @@ StudentProfile::StudentProfile(QWidget *parent)
     ui->label_email->setText(student->get_email());
     ui->label_id->setText(student->get_id());
     ui->label_username->setText(student->get_username());
+    ui->label_academic_status->setText(class_standings[student->get_class_standing()] + " - Your GPA is: " + QString::number(student->get_gpa()));
 
 
 }

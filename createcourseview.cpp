@@ -29,13 +29,18 @@ CreateCourseView::CreateCourseView(QWidget *parent)
     descriptionEdit = new QLineEdit(this);
     locationEdit = new QLineEdit(this);
     capacityEdit = new QLineEdit(this);
-    instructorIdEdit = new QLineEdit(this);
+    instructorNameCombobox = new QComboBox(this);
     startDateEdit = new QDateEdit(QDate::currentDate(), this);
     endDateEdit = new QDateEdit(QDate::currentDate(), this);
     startTimeEdit = new QTimeEdit(QTime::currentTime(), this);
     endTimeEdit = new QTimeEdit(QTime::currentTime(), this);
     daysComboBox = new QComboBox(this);
     createButton = new QPushButton("Create Course", this);
+
+    // Populate instructor name combo box
+    for (auto &instructor : app->enrollment_manager->get_instructors()) {
+        instructorNameCombobox->addItem(instructor.get_name());
+    }
 
     // Populate days combo box
     daysComboBox->addItems({"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"});
@@ -50,8 +55,8 @@ CreateCourseView::CreateCourseView(QWidget *parent)
     layout->addWidget(locationEdit);
     layout->addWidget(new QLabel("Capacity:"));
     layout->addWidget(capacityEdit);
-    layout->addWidget(new QLabel("Instructor ID:"));
-    layout->addWidget(instructorIdEdit);
+    layout->addWidget(new QLabel("Instructor Name:"));
+    layout->addWidget(instructorNameCombobox);
     layout->addWidget(new QLabel("Start Date:"));
     layout->addWidget(startDateEdit);
     layout->addWidget(new QLabel("End Date:"));
@@ -73,7 +78,7 @@ CreateCourseView::CreateCourseView(QWidget *parent)
         QString location = locationEdit->text();
         int capacity = capacityEdit->text().toInt();
         QUuid id = QUuid::createUuid();
-        QUuid instructor_id = QUuid(instructorIdEdit->text());
+        QString instructor_name = instructorNameCombobox->currentText();
         QDate start_date = startDateEdit->date();
         QDate end_date = endDateEdit->date();
         QTime start_time = startTimeEdit->time();
@@ -88,7 +93,7 @@ CreateCourseView::CreateCourseView(QWidget *parent)
         else if (selectedDay == "Friday") days.insert(Day::Friday);
         else if (selectedDay == "Saturday") days.insert(Day::Saturday);
         else if (selectedDay == "Sunday") days.insert(Day::Sunday);
-        Course* c   = new Course(title, description, location, capacity, id, instructor_id, start_date, end_date, start_time, end_time, days);
+        Course* c   = new Course(title, description, location, capacity, id, app->enrollment_manager->get_instructor(instructor_name).get_id(), start_date, end_date, start_time, end_time, days);
         app->course_manager->create(c);
         QMessageBox::information(this, "Success", "Course created successfully!");
     });

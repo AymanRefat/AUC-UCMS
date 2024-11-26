@@ -1,6 +1,7 @@
 #ifndef CREATEEVENTVIEW_H
 #define CREATEEVENTVIEW_H
 
+#include "qcombobox.h"
 #include <QDialog>
 #include <QWidget>
 #include <QLineEdit>
@@ -33,7 +34,7 @@ private:
     QTimeEdit *startTimeEdit;
     QTimeEdit *endTimeEdit;
     QPushButton *createButton;
-    QLineEdit *speakerIdEdit;
+    QComboBox *speakerNameCombobox;
     QLineEdit *capacityEdit;
 };
 

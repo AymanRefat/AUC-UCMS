@@ -29,7 +29,7 @@ private:
 QLineEdit *descriptionEdit;
 QLineEdit *locationEdit;
 QLineEdit *capacityEdit;
-QLineEdit *instructorIdEdit;
+QComboBox *instructorNameCombobox;
 QDateEdit *startDateEdit;
 QDateEdit *endDateEdit;
 QTimeEdit *startTimeEdit;

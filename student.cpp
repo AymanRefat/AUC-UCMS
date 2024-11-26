@@ -1,10 +1,14 @@
 #include "student.h"
 #include <QString>
+#include <QRandomGenerator>
 
 Student::Student(QString id, QString username, QString password, QString first_name, QString last_name, QString email,
                  QString phone_number, double gpa, enum ClassStanding class_standing) : User(id, username, password, first_name, last_name, email, phone_number, UserType::Student) {
-    set_gpa(gpa);
     set_class_standing(class_standing);
+
+    double randomGPA = QRandomGenerator::global()->bounded(4.0);
+    randomGPA = std::round(randomGPA * 100.0) / 100.0;
+    set_gpa(randomGPA);
 }
 
 // Setters

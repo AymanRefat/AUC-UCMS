@@ -26,11 +26,8 @@ private slots:
 
 private:
     Ui::StudentCourseView* ui;       // Pointer to UI elements
-    QList<Course> availableCourses; // List of courses to display (replace with the actual data in files)
-
     void populateCourseTable();     // Method to populate the course table
 
-    bool registerCourse(); // (replace with the registeration logic)
 };
 
 #endif // STUDENTCOURSEVIEW_H

@@ -1,4 +1,6 @@
 id,title,description,capacity,location,date_time
-{e7a7014e-40d1-41f0-a2b9-7cd0dd2599ad},"AUC ICPC Community Trivia Night","This is just a description",10,"Location 1",2024 11 23,2024 11 23,03 25,03 25,{9208cdc2-274c-443e-9f0b-ac554773e3bf}
-{636166ef-0872-4557-8c4a-69e6ea64cb38},"event","e",12,"e",2024 11 26,2024 11 26,13 25,13 25,{43a80697-bfc2-4442-a224-19490fc88335}
-{6d6a5ac5-45f1-4ef3-9b40-12e76c526518},"event","e",12,"e",2024 11 26,2024 11 26,13 25,13 25,{27958440-7f62-4c4f-bd87-9322eb2bd429}
+{e7a7014e-40d1-41f0-a2b9-7cd0dd2599ad},"AUC ICPC Community Trivia Night","This is just a description",10,"Location 1",2024 11 23,2024 11 23,03 25,03 25,{8d1c0e04-de0c-4519-8837-7d24bee84fcf}
+{09e3cbb0-96b4-4b27-a54a-536eb4377608},"Mathematics Trivia Night","Let's have some fun with math",35,"SSE 2176",2024 11 26,2024 11 26,20 10,20 10,{4d007116-a3d0-417e-98c7-9045882190af}
+{49b04bea-d23f-4bbb-b698-7a95c1388b37},"This is our history","A brief overview of our country's history and how it shaped our identitiy",12,"a",2024 11 26,2024 11 26,10 15,10 15,{9d150557-1407-49d9-833d-ad01145114f0}
+{f6c2adad-6e30-45dd-b3a0-c8f67a27f063},"Why not major in Mathematics","Nine credit hours for a double major? join us",50,"Mathematics Departement Conference Room",2024 11 26,2024 11 26,20 57,20 57,{7d566139-995b-4c88-89b9-444dd11b277c}
+{1bfc3af9-af6d-4ea3-b0f9-3e77c40f19ed},"Let us talk politics","This is just a description",10,"Location 1",2024 11 23,2024 11 23,03 25,03 25,{7b5b5bf0-12b9-4b26-a58a-4ae3e841b784}

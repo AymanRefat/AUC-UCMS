@@ -1,10 +1,12 @@
 #include "admin_page.h"
+#include "app.h"
 #include "ui_admin_page.h"
 #include "utils.h"
-#include "admincourseview.h"
 #include "admineventview.h"
 #include "createcourseview.h"
 #include "admindashboard.h"
+
+extern App *app;
 
 Admin_page::Admin_page(QWidget *parent)
     : QDialog(parent)

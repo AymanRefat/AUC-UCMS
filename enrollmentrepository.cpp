@@ -10,15 +10,20 @@ void EnrollmentRepository::load(QString student_id) {
 }
 
 void EnrollmentRepository::store(QString student_id) {
+    qDebug() << "From Store" << courses.size() << events.size();
     store(student_id, ActivityType::CourseType);
     store(student_id, ActivityType::EventType);
 }
 
 void EnrollmentRepository::enroll_in_course(QString student_id, QUuid course_id) {
+    if (courses.contains(course_id))
+        throw std::runtime_error("Course already enrolled");
     courses.insert(course_id);
 }
 
 void EnrollmentRepository::enroll_in_event(QString student_id, QUuid event_id) {
+    if (events.contains(event_id))
+        throw std::runtime_error("Event already enrolled");
     events.insert(event_id);
 }
 
@@ -67,6 +72,20 @@ class Instructor EnrollmentRepository::get_instructor(QUuid id) {
     return instructors[id];
 }
 
+class Instructor EnrollmentRepository::get_instructor(QString name) {
+    if (instructors.isEmpty())
+        get_instructors();
+
+    for (auto &instructor : instructors) {
+        if (instructor.get_name() == name)
+            return instructor;
+    }
+
+    throw std::runtime_error("Instructor not found");
+}
+
+// This called only when the student dropping or registering for a course is not the current student
+// For the current student, it is handled without opening any files
 void EnrollmentRepository::enroll(QString student_id, QUuid activityId, ActivityType type) {
     QString filename = type == ActivityType::CourseType ? "students-courses.csv" : "students-events.csv";
     QFile file(getCurrentDir() + "/" + filename);
@@ -97,6 +116,9 @@ void EnrollmentRepository::enroll(QString student_id, QUuid activityId, Activity
     file.close();
 }
 
+
+// This called only when the student dropping or registering for a course is not the current student
+// For the current student, it is handled without opening any files
 void EnrollmentRepository::drop(QString student_id, QUuid course_id, ActivityType type) {
 
     QString filename = type == ActivityType::CourseType ? "students-courses.csv" : "students-events.csv";
@@ -187,6 +209,7 @@ void EnrollmentRepository::store(QString student_id, ActivityType type) {
     QStringList newData;
     while(!stream.atEnd()) {
         QString line = stream.readLine();
+        qDebug() << "From store of enrollment" << line;
         if (line.split(",")[0] == student_id) {
             line = student_id;
             if (type == ActivityType::CourseType) {
@@ -202,6 +225,7 @@ void EnrollmentRepository::store(QString student_id, ActivityType type) {
 
     // Write the new data
     file.resize(0);
+    stream.setDevice(&file);
     for (auto &line : newData)
         stream << line << "\n";
 

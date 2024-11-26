@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>563</width>
-    <height>402</height>
+    <width>797</width>
+    <height>475</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,13 +18,13 @@
     <rect>
      <x>20</x>
      <y>80</y>
-     <width>521</width>
+     <width>711</width>
      <height>271</height>
     </rect>
    </property>
    <column>
     <property name="text">
-     <string>Course Title</string>
+     <string>Title</string>
     </property>
    </column>
    <column>
@@ -56,9 +56,9 @@
   <widget class="QPushButton" name="RegisterCourse_Button">
    <property name="geometry">
     <rect>
-     <x>420</x>
+     <x>560</x>
      <y>360</y>
-     <width>121</width>
+     <width>171</width>
      <height>31</height>
     </rect>
    </property>

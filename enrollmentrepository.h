@@ -53,6 +53,7 @@ public:
     // (Not the right place, but for now)
     QHash<QUuid, class Instructor>& get_instructors();
     class Instructor get_instructor(QUuid id);
+    class Instructor get_instructor(QString name);
 
 
 private:
