@@ -15,8 +15,12 @@ public:
     explicit StudentEventView(QWidget *parent = nullptr);
     ~StudentEventView();
 
+private slots:
+    void on_RegisterEvent_Button_clicked();
+
 private:
     Ui::StudentEventView *ui;
+    void populateEventTable();
 };
 
 #endif // STUDENTEVENTVIEW_H

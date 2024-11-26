@@ -6,40 +6,44 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>598</width>
-    <height>365</height>
+    <width>889</width>
+    <height>458</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QTableWidget" name="StEvents_TableWidget">
+  <widget class="QPushButton" name="RegisterEvent_Button">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>60</y>
-     <width>521</width>
-     <height>241</height>
+     <x>520</x>
+     <y>350</y>
+     <width>181</width>
+     <height>31</height>
     </rect>
+   </property>
+   <property name="text">
+    <string>Register in Selected Event</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="Event_Table">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>70</y>
+     <width>651</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>651</width>
+     <height>16777215</height>
+    </size>
    </property>
    <column>
     <property name="text">
-     <string>Event title</string>
-    </property>
-   </column>
-   <column>
-    <property name="text">
-     <string>Registered students</string>
-    </property>
-   </column>
-   <column>
-    <property name="text">
-     <string>capacity</string>
-    </property>
-   </column>
-   <column>
-    <property name="text">
-     <string>Speaker</string>
+     <string>Title</string>
     </property>
    </column>
    <column>
@@ -49,7 +53,7 @@
    </column>
    <column>
     <property name="text">
-     <string>Date</string>
+     <string>Capacity</string>
     </property>
    </column>
    <column>
@@ -57,31 +61,28 @@
      <string>Time</string>
     </property>
    </column>
+   <column>
+    <property name="text">
+     <string>Date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Speaker</string>
+    </property>
+   </column>
   </widget>
-  <widget class="QPushButton" name="StAddEvent_Button">
+  <widget class="QLabel" name="welcomeStudentEvent_label">
    <property name="geometry">
     <rect>
-     <x>480</x>
-     <y>310</y>
-     <width>81</width>
-     <height>21</height>
+     <x>50</x>
+     <y>10</y>
+     <width>441</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="text">
-    <string>Add Event</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="StDeleteEvent_Button">
-   <property name="geometry">
-    <rect>
-     <x>390</x>
-     <y>310</y>
-     <width>81</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Delete Event</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#aa0000;&quot;&gt;Welcome to the student event registeration window&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
  </widget>

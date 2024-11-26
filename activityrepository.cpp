@@ -100,32 +100,35 @@ void ActivityRepository::load() {
 }
 
 void ActivityRepository::store() {
-
-    // Open file
+    // Open file in write mode
     QFile file(getCurrentDir() + "/" + filename);
+    if (!file.open(QIODevice::WriteOnly | QIODevice::Truncate)) {
+        throw std::runtime_error(
+            ("Could not open file: " + file.fileName() + ", Error: " + file.errorString()).toStdString());
+    }
 
-    // Check if file is open
-    if (!file.open(QIODevice::ReadWrite))
-        throw std::runtime_error(("Could not open file: " + file.fileName() + ", Error: " + file.errorString()).toStdString());
-
-    // Write to file
+    // Use QTextStream for writing
     QTextStream out(&file);
 
+    // Write the appropriate header
+    auto writeHeader = [&out, this]() {
+        if (type == ActivityType::CourseType) {
+            out << "id,title,description,capacity,location,start_date,end_date,days,start_time,end_time,instructor_id\n";
+        } else {
+            out << "id,title,description,capacity,location,date_time\n";
+        }
+    };
 
-    // Write the title (Just for now. The title should be deleted in the end)
-    if (type == ActivityType::CourseType)
-        out << "id,title,description,capacity,location,start_date,end_date,days,start_time,end_time,instructor_id\n";
-    else
-        out << "id,title,description,capacity,location,date_time\n";
+    writeHeader();
 
-    // Write the data
+    // Write data for each activity
     for (auto &activity : container) {
         if (type == ActivityType::CourseType) {
+            auto *course = dynamic_cast<class Course *>(activity);
+            if (!course) {
+                throw std::runtime_error("Invalid activity type encountered while writing to file.");
+            }
 
-            // Dynamic Casting to a Course object
-            class Course *course = dynamic_cast<class Course*>(activity);
-
-            // Writing to the file
             out << course->get_id().toString() << ","
                 << '"' << course->get_title() << '"' << ","
                 << '"' << course->get_description() << '"' << ","
@@ -136,15 +139,22 @@ void ActivityRepository::store() {
                 << course->get_start_time().toString("hh mm") << ","
                 << course->get_end_time().toString("hh mm") << ","
                 << course->get_instructor_id().toString() << ",";
-                QSet<Day> days = course->get_days();
-                for(auto &day : days)
-                    out << day << " ";
-                out << "\n";
+
+            QSet<Day> days = course->get_days();
+            QStringList days_list;
+            for (auto &day : days) {
+                days_list.append(QString::number(static_cast<int>(day)));
+            }
+            out << days_list.join(" ") << "\n";
 
         } else {
-            class Event* event = dynamic_cast<class Event*>(activity);
+            auto *event = dynamic_cast<class Event *>(activity);
+            if (!event) {
+                throw std::runtime_error("Invalid activity type encountered while writing to file.");
+            }
+
             out << event->get_id().toString() << ","
-                << '"' <<  event->get_title() << '"' << ","
+                << '"' << event->get_title() << '"' << ","
                 << '"' << event->get_description() << '"' << ","
                 << event->get_capacity() << ","
                 << '"' << event->get_location() << '"' << ","
@@ -156,10 +166,8 @@ void ActivityRepository::store() {
         }
     }
 
-    // Closing the file
     file.close();
 }
-
 
 void ActivityRepository::add(Activity* activity) {
     container.insert(activity->get_id(), activity);

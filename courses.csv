@@ -1,8 +1,8 @@
 id,title,description,capacity,location,start_date,end_date,days,start_time,end_time,instructor_id
-{6d8b4a8d-9c3b-0d5e-8d7b-4a8d6d8b4a8d},"PHYS3","Physics III",10,"Location 3",2024 11 23,2024 11 23,14 47,15 47,{bb539dd2-12ea-4c86-be4d-3ef78501c6c7},2 1 
-{4c9b3b3e-4b5f-4b7d-9f8f-4f4b9f4b7d9f},"PHYS1","Introduction to Physics",10,"Location 3",2024 11 23,2024 11 23,14 47,15 47,{bb539dd2-12ea-4c86-be4d-3ef78501c6c7},2 1 
-{4b5f4b7d-9f8f-4f4b-9f4b-7d9f4b5f4b7d},"CSCE2","Computer Science II",10,"Location 1",2024 11 23,2024 11 23,14 47,15 47,{8d1c0e04-de0c-4519-8837-7d24bee84fcf},0 1 
-{3c7d8f9e-4b5f-4b7d-9f8f-4f4b9f4b7d9f},"MATH2","Mathematics II",10,"Location 2",2024 11 23,2024 11 23,14 47,15 47,{f65e8031-c9b6-46e9-b338-3a62d7cbb5fe},3 2 4 
-{91990a7a-6499-4a0e-8d74-8d12f7bc1a8d},"CSCE1","Introduction to Computer Science",10,"Location 1",2024 11 23,2024 11 23,14 47,15 47,{8d1c0e04-de0c-4519-8837-7d24bee84fcf},0 1 
-{ac1778e7-e58b-432c-bd05-2da0bbb0d3bc},"MATH1","Introduction to Mathematics",10,"Location 2",2024 11 23,2024 11 23,14 47,15 47,{f65e8031-c9b6-46e9-b338-3a62d7cbb5fe},3 2 4 
-{f2d5f3b4-6d8b-4a8d-9c3b-0d5e8d7b4a8d},"PHYS2","Physics II",10,"Location 3",2024 11 23,2024 11 23,14 47,15 47,{bb539dd2-12ea-4c86-be4d-3ef78501c6c7},2 1 
+{3c7d8f9e-4b5f-4b7d-9f8f-4f4b9f4b7d9f},"MATH2","Mathematics II",7,"Location 2",2024 11 23,2024 11 23,17 47,18 47,{f65e8031-c9b6-46e9-b338-3a62d7cbb5fe},2 3 4
+{4b5f4b7d-9f8f-4f4b-9f4b-7d9f4b5f4b7d},"CSCE2","Computer Science II",9,"Location 1",2024 11 23,2024 11 23,14 47,15 47,{8d1c0e04-de0c-4519-8837-7d24bee84fcf},1 0
+{6d8b4a8d-9c3b-0d5e-8d7b-4a8d6d8b4a8d},"PHYS3","Physics III",6,"Location 3",2024 11 23,2024 11 23,17 47,18 47,{bb539dd2-12ea-4c86-be4d-3ef78501c6c7},1 2
+{4c9b3b3e-4b5f-4b7d-9f8f-4f4b9f4b7d9f},"PHYS1","Introduction to Physics",10,"Location 3",2024 11 23,2024 11 23,14 47,15 47,{bb539dd2-12ea-4c86-be4d-3ef78501c6c7},1 2
+{ac1778e7-e58b-432c-bd05-2da0bbb0d3bc},"MATH1","Introduction to Mathematics",20,"Location 2",2024 11 23,2024 11 23,14 47,15 47,{f65e8031-c9b6-46e9-b338-3a62d7cbb5fe},2 3 4
+{91990a7a-6499-4a0e-8d74-8d12f7bc1a8d},"CSCE1","Introduction to Computer Science",22,"Location 1",2024 11 23,2024 11 23,14 47,15 47,{8d1c0e04-de0c-4519-8837-7d24bee84fcf},1 0
+{f2d5f3b4-6d8b-4a8d-9c3b-0d5e8d7b4a8d},"PHYS2","Physics II",11,"Location 3",2024 11 23,2024 11 23,14 47,15 47,{bb539dd2-12ea-4c86-be4d-3ef78501c6c7},1 2

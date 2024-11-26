@@ -1,5 +1,6 @@
 #include "dashboard.h"
 #include "StudentCourseView.h"
+#include "StudentEventView.h"
 #include "app.h"
 #include "course.h"
 #include "qpushbutton.h"
@@ -127,6 +128,18 @@ void Dashboard::on_commandLinkButtonCourseRegister_clicked()
         delete app->get_current_window();
     }
     app->set_current_window(new StudentCourseView());
+    app->get_current_window()->show();
+}
+
+
+void Dashboard::on_commandLinkButtonEventRegister_clicked()
+{
+    if (app->get_current_window() != nullptr) {
+        app->get_current_window()->hide();
+        app->get_current_window()->close();
+        delete app->get_current_window();
+    }
+    app->set_current_window(new StudentEventView());
     app->get_current_window()->show();
 }
 

@@ -250,11 +250,21 @@ class Instructor App::EnrollmentManager::get_instructor(QUuid id){
 }
 
 void App::EnrollmentManager::enroll_in_course(QString student_id, QUuid course_id){
-    app.enrollment_repository->enroll_in_course(student_id, course_id);
+    try {
+        app.enrollment_repository->enroll_in_course(student_id, course_id);
+        QMessageBox::information(app.current_window, "Success", "Course registered successfully!");
+    } catch (std::exception &e){
+        QMessageBox::warning(app.current_window, "Error", e.what());
+    }
 }
 
 void App::EnrollmentManager::enroll_in_event(QString student_id, QUuid event_id){
-    app.enrollment_repository->enroll_in_event(student_id, event_id);
+    try {
+        app.enrollment_repository->enroll_in_event(student_id, event_id);
+        QMessageBox::information(app.current_window, "Success", "Event registered successfully!");
+    } catch (std::exception &e){
+        QMessageBox::warning(app.current_window, "Error", e.what());
+    }
 }
 
 void App::EnrollmentManager::drop_course(QString student_id, QUuid course_id){
