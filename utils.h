@@ -68,6 +68,10 @@ const QStringList days = {
     "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
 };
 
+const QStringList class_standings = {
+    "Freshman", "Sophomore", "Junior", "Senior"
+};
+
 void load_logout_button(QDialog* parent);
 // Functions
 

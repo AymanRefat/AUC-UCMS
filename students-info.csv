@@ -1,7 +1,7 @@
 Id,Firstname,Lastname,Gpa,Class Standing
-12345678,Ahmed,Saad,0,0
-98765432,Ayman,Refat,0,0
-23456789,Dalia,M,0,0
-34567890,Rama,El Berry,0,0
-12345567,fsdlkjf,fdslkjf,0,0
-12345676,eslam,ahmed,0,0
+12345678,Ahmed,Saad,2.2,0
+98765432,Ayman,Refat,2.5,0
+23456789,Dalia,M,3.6,0
+34567890,Rama,El Berry,3.9,0
+12345567,fsdlkjf,fdslkjf,3.7,0
+12345676,eslam,ahmed,3.6,0

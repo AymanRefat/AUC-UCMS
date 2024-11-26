@@ -62,6 +62,7 @@ class App
         QList<Event*> get_student_events(QString student_id);
         QList<class Instructor> get_instructors();
         class Instructor get_instructor(QUuid id);
+        class Instructor get_instructor(QString instructor_name);
     };
 
 private:

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>755</width>
-    <height>456</height>
+    <width>784</width>
+    <height>457</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,10 +16,10 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>40</y>
+     <x>40</x>
+     <y>50</y>
      <width>171</width>
-     <height>31</height>
+     <height>41</height>
     </rect>
    </property>
    <property name="text">
@@ -29,10 +29,10 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>390</x>
-     <y>40</y>
+     <x>400</x>
+     <y>50</y>
      <width>171</width>
-     <height>31</height>
+     <height>41</height>
     </rect>
    </property>
    <property name="text">
@@ -42,8 +42,8 @@
   <widget class="QFrame" name="frame_courses">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>70</y>
+     <x>40</x>
+     <y>90</y>
      <width>341</width>
      <height>321</height>
     </rect>
@@ -61,8 +61,8 @@
   <widget class="QFrame" name="frame_events">
    <property name="geometry">
     <rect>
-     <x>390</x>
-     <y>70</y>
+     <x>400</x>
+     <y>90</y>
      <width>351</width>
      <height>321</height>
     </rect>
@@ -77,8 +77,8 @@
   <widget class="QCommandLinkButton" name="commandLinkButtonCourseRegister">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>0</y>
+     <x>210</x>
+     <y>50</y>
      <width>172</width>
      <height>41</height>
     </rect>
@@ -90,14 +90,27 @@
   <widget class="QCommandLinkButton" name="commandLinkButtonEventRegister">
    <property name="geometry">
     <rect>
-     <x>390</x>
-     <y>0</y>
+     <x>580</x>
+     <y>50</y>
      <width>172</width>
      <height>41</height>
     </rect>
    </property>
    <property name="text">
     <string>Go to registeration</string>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="commandLinkButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>0</y>
+     <width>172</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Visit your profile</string>
    </property>
   </widget>
  </widget>

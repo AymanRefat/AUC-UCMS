@@ -4,6 +4,7 @@
 #include "app.h"
 #include "course.h"
 #include "qpushbutton.h"
+#include "studentprofile.h"
 #include "ui_dashboard.h"
 #include "utils.h"
 #include <QLabel>
@@ -53,7 +54,7 @@ void Dashboard::display() {
                 course->get_start_time().toString("hh:mm") + " - " + course->get_end_time().toString("hh:mm") + " - " + s,
                 ui->frame_courses);
             childLayout2->addWidget(secondRow);
-
+// Button
             QPushButton *btn = new QPushButton("Drop", ui->frame_courses);
             btn->setObjectName(course->get_id().toString());
             // Handle when button is clicked
@@ -93,6 +94,7 @@ void Dashboard::display() {
                 ui->frame_events);
             childLayout2->addWidget(secondRow);
 
+            // Button
             QPushButton *btn = new QPushButton("Drop", ui->frame_events);
             btn->setObjectName(event->get_id().toString());
             connect(btn, &QPushButton::clicked, [=](){
@@ -140,6 +142,18 @@ void Dashboard::on_commandLinkButtonEventRegister_clicked()
         delete app->get_current_window();
     }
     app->set_current_window(new StudentEventView());
+    app->get_current_window()->show();
+}
+
+
+void Dashboard::on_commandLinkButton_clicked()
+{
+    if (app->get_current_window() != nullptr) {
+        app->get_current_window()->hide();
+        app->get_current_window()->close();
+        delete app->get_current_window();
+    }
+    app->set_current_window(new StudentProfile());
     app->get_current_window()->show();
 }
 

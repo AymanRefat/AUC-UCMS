@@ -216,6 +216,11 @@ QList<Course*> App::EnrollmentManager::get_student_courses(QString student_id){
     QList<QUuid> courses_ids = app.enrollment_repository->get_student_courses(student_id);
     QList<Course*> courses;
     for (auto id : courses_ids){
+        try {
+            app.course_repository->get(id);
+        } catch (std::exception &e){
+            continue;
+        }
         Course* course = dynamic_cast<Course*>(app.course_repository->get(id));
         if (course != nullptr){
             courses.append(course);
@@ -228,6 +233,11 @@ QList<Event*> App::EnrollmentManager::get_student_events(QString student_id){
     QList<QUuid> events_ids = app.enrollment_repository->get_student_events(student_id);
     QList<Event*> events;
     for (auto id : events_ids){
+        try {
+            app.event_repository->get(id);
+        } catch (std::exception &e){
+            continue;
+        }
         Event* event = dynamic_cast<Event*>(app.event_repository->get(id));
         if (event != nullptr){
             events.append(event);
@@ -247,6 +257,10 @@ QList<class Instructor> App::EnrollmentManager::get_instructors(){
 
 class Instructor App::EnrollmentManager::get_instructor(QUuid id){
     return app.enrollment_repository->get_instructor(id);
+}
+
+class Instructor App::EnrollmentManager::get_instructor(QString instructor_name){
+    return app.enrollment_repository->get_instructor(instructor_name);
 }
 
 void App::EnrollmentManager::enroll_in_course(QString student_id, QUuid course_id){

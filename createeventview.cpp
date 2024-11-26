@@ -24,12 +24,17 @@ CreateEventView::CreateEventView(QWidget *parent)
     descriptionEdit = new QLineEdit(this);
     locationEdit = new QLineEdit(this);
     capacityEdit = new QLineEdit(this);
-    speakerIdEdit = new QLineEdit(this);
+    speakerNameCombobox = new QComboBox(this);
     startDateEdit = new QDateEdit(QDate::currentDate(), this);
     endDateEdit = new QDateEdit(QDate::currentDate(), this);
     startTimeEdit = new QTimeEdit(QTime::currentTime(), this);
     endTimeEdit = new QTimeEdit(QTime::currentTime(), this);
     createButton = new QPushButton("Create Event", this);
+
+    // Populate speaker name combo box
+    for (auto &instructor : app->enrollment_manager->get_instructors()) {
+        speakerNameCombobox->addItem(instructor.get_name());
+    }
 
     // Layout
     QVBoxLayout *layout = new QVBoxLayout(this);
@@ -41,8 +46,8 @@ CreateEventView::CreateEventView(QWidget *parent)
     layout->addWidget(locationEdit);
     layout->addWidget(new QLabel("Capacity:"));
     layout->addWidget(capacityEdit);
-    layout->addWidget(new QLabel("Speaker ID:"));
-    layout->addWidget(speakerIdEdit);
+    layout->addWidget(new QLabel("Speaker Name:"));
+    layout->addWidget(speakerNameCombobox);
     layout->addWidget(new QLabel("Start Date:"));
     layout->addWidget(startDateEdit);
     layout->addWidget(new QLabel("End Date:"));
@@ -61,7 +66,7 @@ CreateEventView::CreateEventView(QWidget *parent)
                 locationEdit->text(),               // Location from QLineEdit
                 capacityEdit->text().toInt(),       // Capacity from QLineEdit, converted to int
                 QUuid::createUuid(),                // Automatically generates a unique event ID
-                QUuid::createUuid(),              // Speaker ID from QLineEdit
+                app->enrollment_manager->get_instructor(speakerNameCombobox->currentText()).get_id(),
                 startDateEdit->date(),              // Start Date from QDateEdit
                 endDateEdit->date(),                // End Date from QDateEdit
                 startTimeEdit->time(),              // Start Time from QTimeEdit

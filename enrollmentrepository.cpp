@@ -63,18 +63,26 @@ QHash<QUuid, class Instructor> &EnrollmentRepository::get_instructors() {
 }
 
 class Instructor EnrollmentRepository::get_instructor(QUuid id) {
-    qDebug() << "From Get Instructor" << instructors.size();
     if (instructors.isEmpty())
         get_instructors();
 
-    qDebug() << "From Get Instructor" << instructors.size();
     if (!instructors.contains(id))
         throw std::runtime_error("Instructor not found");
 
-    qDebug() << "From Get Instructor" << instructors.size();
     return instructors[id];
 }
 
+class Instructor EnrollmentRepository::get_instructor(QString name) {
+    if (instructors.isEmpty())
+        get_instructors();
+
+    for (auto &instructor : instructors) {
+        if (instructor.get_name() == name)
+            return instructor;
+    }
+
+    throw std::runtime_error("Instructor not found");
+}
 
 // This called only when the student dropping or registering for a course is not the current student
 // For the current student, it is handled without opening any files

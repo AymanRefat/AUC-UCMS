@@ -100,7 +100,6 @@ void ActivityRepository::load() {
 }
 
 void ActivityRepository::store() {
-    // Open file in write mode
     QFile file(getCurrentDir() + "/" + filename);
     if (!file.open(QIODevice::WriteOnly | QIODevice::Truncate)) {
         throw std::runtime_error(
@@ -165,7 +164,6 @@ void ActivityRepository::store() {
                 << event->get_speaker_id().toString() << "\n";
         }
     }
-
     file.close();
 }
 
@@ -174,12 +172,14 @@ void ActivityRepository::add(Activity* activity) {
 }
 
 void ActivityRepository::remove(Activity* activity) {
+
     remove(activity->get_id());
 }
 
 void ActivityRepository::remove(QUuid id) {
     if (!container.contains(id))
         throw std::runtime_error("Activity not found");
+
     container.remove(id);
 }
 
